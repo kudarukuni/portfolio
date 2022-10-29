@@ -49,7 +49,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Yesterday <span className="purple">I</span> was clever so <span className="purple">I</span> changed the world, today <span className="purple">I</span> am wise so <span className="purple">I</span> change myself"{" "}
           </p>
-          <footer className="blockquote-footer">Rumi</footer>
+          <footer className="blockquote-footer"><span className="purple">Rumi</span></footer>
         </blockquote>
       </Card.Body>
     </Card>

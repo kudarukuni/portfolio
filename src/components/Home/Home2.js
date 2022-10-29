@@ -19,7 +19,7 @@ function Home2() {
               <strong>ALLOW <span className="purple">ME</span> TO <span className="purple"> INTRODUCE </span> MYSELF</strong>
             </h1>
             <p className="home-about-body">
-              My journey as a Software Engineer started in 2012 when I was introduced to Linux terminal. At first i had ambitions of becoming a hacker but as I countinued learning Kali Linux I decided to design an unhackable website. At this very moment I realized I was a much better programmer than a hacker. 
+              My journey as a <span className="purple">Software Engineer</span> started way back in the year <span className="purple">2012</span> when I was introduced to <span className="purple">Linux terminal</span> for the first time. I began with the ambition of becoming an <span className="purple">unethical-hacker</span>. I advanced my Kali Linux <span className="purple">skills</span> to the point were I decided to <span className="purple">develop</span> an unhackable solution (<span className="purple">website</span>). At this very moment I realized I was an <span className="purple">IT Solutions Expert</span>. 
               <br />
               <br />I am fluent in all programming languages. Below is a  list of my favourite programming languages.
               <i>

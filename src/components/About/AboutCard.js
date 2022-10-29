@@ -8,7 +8,7 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello once again! <span className="purple">Nice</span> to <span className="purple">see</span> you made here, as mentioned earlier my name is <span className="purple">Kuda Rukuni, </span>
+            Hello once again! <span className="purple">Nice</span> to <span className="purple">see</span> you made here, as mentioned earlier my name is <span className="purple">Kuda Rukuni</span>, 
             I'm from <span className="purple"> the capital city of Harare, in Zimbabwe.</span>
             <br />
             <br />Life has its <span className="purple">twists</span> and <span className="purple">turns</span>. My experience ranges across many spectrums. 
@@ -19,11 +19,11 @@ function AboutCard() {
             <br />
             <br />
             I’ve always had a passion for <span className="purple">art, economics, music, aviation and design</span>. When I discovered the power of <span className="purple">Web Development</span>, it opened a world of endless possibilities <span className="purple">&</span> opportunities. 
-            I <span className="purple">was</span> now able to finally blend my <span className="purple">skills</span> and passions into creating <span className="purple">awesome<span> projects that help the world. 
+            I <span className="purple">was</span> now able to finally blend my <span className="purple">skills</span> and passions into creating <span className="purple">awesome</span> projects that help the world. 
             From front-end<span className="purple">/</span>back-end design, global macro analysis, to <span className="purple">blockchain</span> development and on-chain analytics.
             <br />
             <br />
-            Apart from <span className="purple">coding</span>, some other <span className="purple">activities</span> that I <span className="purple">love</span> to do!
+            Apart from <span className="purple">coding</span>, some other <span className="purple">activities</span> that I <span className="purple">love</span> to do<span className="purple">b!</span>
           </p>
           <ul>
             <li className="about-activity">

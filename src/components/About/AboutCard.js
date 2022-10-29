@@ -23,7 +23,7 @@ function AboutCard() {
             From front-end<span className="purple">/</span>back-end design, global macro analysis, to <span className="purple">blockchain</span> development and on-chain analytics.
             <br />
             <br />
-            Apart from <span className="purple">coding</span>, some other <span className="purple">activities</span> that I <span className="purple">love</span> to do<span className="purple">b!</span>
+            Apart from <span className="purple">coding</span>, some other <span className="purple">activities</span> that I <span className="purple">love</span> to do<span className="purple">!</span>
           </p>
           <ul>
             <li className="about-activity">
@@ -42,7 +42,7 @@ function AboutCard() {
               <ImPointRight /> Trying <span className="purple">new</span> recipes
             </li>
             <li className="about-activity">
-              <ImPointRight /> Learning <span className="purple">about<span> new <span className="purple">tech</span>
+              <ImPointRight /> Learning <span className="purple">about</span> new <span className="purple">tech</span>
             </li>
           </ul>
 

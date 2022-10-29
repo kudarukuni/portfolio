@@ -8,46 +8,46 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello once again! Nice to see you made here, as mentioned earlier my name is <span className="purple">Kuda Rukuni, </span>
+            Hello once again! <span className="purple">Nice</span> to <span className="purple">see</span> you made here, as mentioned earlier my name is <span className="purple">Kuda Rukuni, </span>
             I'm from <span className="purple"> the capital city of Harare, in Zimbabwe.</span>
             <br />
-            <br />Life has its twists and turns. My experience ranges across many spectrums. 
-            I’m fortunate to have a full-time role as a Senior Technician working on a large Audio and Visual Solutions company known as Netcast Systems.
+            <br />Life has its <span className="purple">twists</span> and <span className="purple">turns</span>. My experience ranges across many spectrums. 
+            I’m fortunate to have a full-time role as a <span className="purple">Senior Technician</span> working on a large Audio and Visual Solutions <span className="purple">Startup</sapn> known as <span className="purple">Netcast</span> Systems.
             <br />
             <br />
-            I’ve been an NFT Collector for 3 years and a Full-Stack Web Developer for 8 years. 
+            I’ve been an <span className="purple">NFT</span> Collector for 3 years and a <span className="purple">Full-Stack</span> Web <span className="purple">Developer</span> for 8 years. 
             <br />
             <br />
-            I’ve always had a passion for art, economics, music, aviation and design. When I discovered the power of Web Development, it opened a world of opportunities for me. 
-            I’m able to finally blend my skills and passions into creating awesome projects that help the world. 
-            From front-end/back-end design, global macro analysis, to blockchain development and on-chain analytics.
+            I’ve always had a passion for <span className="purple">art, economics, music, aviation and design</span>. When I discovered the power of <span className="purple">Web Development</span>, it opened a world of endless possibilities <span className="purple">&</span> opportunities. 
+            I <span className="purple">was</span> now able to finally blend my <span className="purple">skills</span> and passions into creating <span className="purple">awesome<span> projects that help the world. 
+            From front-end<span className="purple">/</span>back-end design, global macro analysis, to <span className="purple">blockchain</span> development and on-chain analytics.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from <span className="purple">coding</span>, some other <span className="purple">activities</span> that I <span className="purple">love</span> to do<span className="purple">!</span>
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Casual Chess Player
+              <ImPointRight /> Casual <span className="purple">C</span>h<span className="purple">e</span>s<span className="purple">s</span> Player
             </li>
             <li className="about-activity">
-              <ImPointRight /> Football / Soccer
+              <ImPointRight /> Football <span className="purple">/</span> Soccer
             </li>
             <li className="about-activity">
-              <ImPointRight /> Video Games
+              <ImPointRight /> Video <span className="purple">Games</span>
             </li>
            <li className="about-activity">
               <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Trying new recipes
+              <ImPointRight /> Trying <span className="purple">new</span> recipes
             </li>
             <li className="about-activity">
-              <ImPointRight /> Learning about new tech
+              <ImPointRight /> Learning <span className="purple">about<span> new <span className="purple">tech</span>
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Yesterday I was clever so I changed the world, today I am wise so I change myself"{" "}
+            "Yesterday <span className="purple">I</span> was clever so <span className="purple">I</span> changed the world, today <span className="purple">I</span> am wise so <span className="purple">I</span> change myself"{" "}
           </p>
           <footer className="blockquote-footer">Rumi</footer>
         </blockquote>

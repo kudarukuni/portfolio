@@ -12,7 +12,7 @@ function AboutCard() {
             I'm from <span className="purple"> the capital city of Harare, in Zimbabwe.</span>
             <br />
             <br />Life has its <span className="purple">twists</span> and <span className="purple">turns</span>. My experience ranges across many spectrums. 
-            I’m fortunate to have a full-time role as a <span className="purple">Senior Technician</span> working on a large Audio and Visual Solutions <span className="purple">Startup</sapn> known as <span className="purple">Netcast</span> Systems.
+            I’m fortunate to have a full-time role as a <span className="purple">Senior Technician</span> working on a large Audio and Visual Solutions <span className="purple">Startup</span> known as <span className="purple">Netcast</span> Systems.
             <br />
             <br />
             I’ve been an <span className="purple">NFT</span> Collector for 3 years and a <span className="purple">Full-Stack</span> Web <span className="purple">Developer</span> for 8 years. 

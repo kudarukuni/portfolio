@@ -29,7 +29,7 @@ function Projects() {
               imgPath={exchange}
               isBlog={false}
               title="Decentralized Autonomous Tender System"
-              description="This is a fully functioning decentralized autonomous organisation application or system where users can vote for a proposed tender."
+              description="A Decentralized Autonomous Organisation Application were users can vote for a proposed tender."
               ghLink="https://github.com/kudarukuni/DATS"
               demoLink="https://dats-kudarukuni.vercel.app/"
             />
@@ -40,7 +40,7 @@ function Projects() {
               imgPath={supplychain}
               isBlog={false}
               title="BatPack NFT Marketplace"
-              description="This is a fully functioning decentralized NFT e-commerce web-based application where users can mint NFT."
+              description="A Decentralized NFT E-Commerce Web 3.0 Application were users can mint my Bat-Pack NFT."
               ghLink="https://github.com/kudarukuni/BPN"
               demoLink="https://bat-pack-nft-kudarukuni.vercel.app/"
             />
@@ -51,7 +51,7 @@ function Projects() {
               imgPath={dns}
               isBlog={false}
               title="Blockchain Election Voters Roll"
-              description="This is a fully functioning decentralized Presidential voting system that allows users to vote for their favourite Presidential candidate."
+              description="A Decentralized Voting Application were users vote for their favourite Presidential candidate."
               ghLink="https://github.com/kudarukuni/BEVR"
               demoLink="https://bevr-kudarukuni.vercel.app/"              
             />
@@ -62,7 +62,7 @@ function Projects() {
               imgPath={uas}
               isBlog={false}
               title="Ultimate API Site"
-              description="This is a fully functioning Real Eastate API Website, currently web scrapping available real eastate in Abu Dhabi, Dubai in preparation for the upcomming World Cup 2022."
+              description="A Real Eastate Application were users can buy or rent available Real Eastate in Abu Dhabi."
               ghLink="https://github.com/kudarukuni/UAS"
               demoLink="https://uas-kudarukuni.vercel.app/"              
             />
@@ -84,7 +84,7 @@ function Projects() {
               imgPath={bookstore}
               isBlog={false}
               title="Digital Asset Management System"
-              description="This is a fully functioning decentralized digital asset managaement web-based app that stores users digital assets."
+              description="A Decentralized Digital Asset Managaement Application were users can store Digital Assets."
               ghLink="https://github.com/kudarukuni/DAMS"
               demoLink="https://dams-kudarukuni.vercel.app/"              
             />
@@ -95,7 +95,7 @@ function Projects() {
               imgPath={flow}
               isBlog={false}
               title="Kuda Rukuni 3D Portfolio Website"
-              description="This is my personal portfolio website template made using Three.js."  
+              description="This is my personal Portfolio 3D Website that I made using a JS Framework called Three.js."  
               ghLink="https://github.com/kudarukuni/kudarukuni"
               demoLink="https://kudarukuni.vercel.app/"
             />
@@ -106,7 +106,7 @@ function Projects() {
               imgPath={cookies}
               isBlog={false}
               title="Kuda Rukuni 2D Portfolio Website"
-              description="This is my personal portfolio website template made using Node.js."
+              description="This is my personal Portfolio 2D Website that I made using a JS Framework called Node.js."
               ghLink="https://github.com/kudarukuni/cvtemp"
               demoLink="https://cvtemp-kudarukuni.vercel.app/"
             />
@@ -117,7 +117,7 @@ function Projects() {
               imgPath={yieldapp}
               isBlog={false}
               title="Kuda Rukuni 3D Contact Webite"
-              description="This is my personal 3D contact landing page website template made using Node.js and Vite.js."
+              description="This is my personal Portfolio 3D Contact Landing Page that I made using Node.js and Vite.js."
               ghLink="https://github.com/kudarukuni/contactkuda"
               demoLink="https://contactkuda-kudarukuni.vercel.app/"   
             />

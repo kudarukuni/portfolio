@@ -18,7 +18,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My <strong className="purple">Project</strong> Portfolio
+          My Project Portfolio
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I have worked in the year 2022.

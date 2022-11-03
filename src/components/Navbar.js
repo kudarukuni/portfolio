@@ -93,13 +93,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link>
-                <CgPhone style={{ marginBottom: "2px" }} />
-                <a href="tel:+263782516263" target="_blank"> Call Now!! </a>
-              </Nav.Link>         
-            </Nav.Item>
-
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/kudarukuni/portfolio.git"
@@ -109,13 +102,11 @@ function NavBar() {
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillGithub style={{ fontSize: "1.1em" }} />
               </Button>
-              {"   "}
+              {"                       "}
               <Button
                 href="tel:+263782516263"
                 target="_blank"
-              >
-                <CgPhone style={{ fontSize: "1.2em" }} />{" "}
-                
+              ><CgPhone style={{ fontSize: "1.2em" }} />{" "}                
               </Button>
             </Nav.Item>
           </Nav>

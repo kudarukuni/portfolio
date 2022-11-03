@@ -27,7 +27,7 @@ function Projects() {
             <ProjectCard
               imgPath={exchange}
               isBlog={false}
-              <strong className='purple'>title="Decentralized Autonomous Tender System"</strong>
+              title="Decentralized Autonomous Tender System"
               description="This is a fully functioning decentralized autonomous organisation application or system where users can vote for a proposed tender."
               ghLink="https://github.com/kudarukuni/DATS"
               demoLink="https://dats-kudarukuni.vercel.app/"

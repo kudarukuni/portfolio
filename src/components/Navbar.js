@@ -94,9 +94,13 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <a href="https://github.com/kudarukuni/portfolio.git" target="_blank" className="fork-btn-inner">
-                <CgPhone style={{ marginBottom: "2px" }} /> Call Now
-              </a>
+              <Nav.Link
+                as={Link}
+                to="#"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgPhone style={{ marginBottom: "2px" }} /><a href="+263782516263" target="_blank"> Call Now </a>
+              </Nav.Link>         
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

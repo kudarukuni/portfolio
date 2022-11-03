@@ -94,12 +94,9 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="#"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgPhone style={{ marginBottom: "2px" }} /><a href="+263782516263" target="_blank"> Call Now </a>
+              <Nav.Link>
+                <CgPhone style={{ marginBottom: "2px" }} />
+                <a href="tel:+263782516263" target="_blank"> Call Now!! </a>
               </Nav.Link>         
             </Nav.Item>
 

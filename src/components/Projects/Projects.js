@@ -10,6 +10,7 @@ import cookies from "../../Assets/Projects/cookies.png";
 import supplychain from "../../Assets/Projects/supplychain.png";
 import bookstore from "../../Assets/Projects/bookstore.png";
 import uas from "../../Assets/Projects/uas.png";
+import ls from "../../Assets/Projects/ls.png";
 
 function Projects() {
   return (
@@ -66,15 +67,15 @@ function Projects() {
               demoLink="https://uas-kudarukuni.vercel.app/"              
             />
           </Col>
-
+          
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={flow}
+              imgPath={ls}
               isBlog={false}
-              title="Kuda Rukuni 3D Portfolio Website"
-              description="This is my personal portfolio website template made using Three.js."  
-              ghLink="https://github.com/kudarukuni/kudarukuni"
-              demoLink="https://kudarukuni.vercel.app/"
+              title="JS Login System"
+              description="This is a fully functioning Javascript Login System."
+              ghLink="https://github.com/kudarukuni/Login_System"
+              demoLink="https://login-system-kudarukuni.vercel.app/"              
             />
           </Col>
 
@@ -88,6 +89,17 @@ function Projects() {
               demoLink="https://dams-kudarukuni.vercel.app/"              
             />
           </Col>          
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={flow}
+              isBlog={false}
+              title="Kuda Rukuni 3D Portfolio Website"
+              description="This is my personal portfolio website template made using Three.js."  
+              ghLink="https://github.com/kudarukuni/kudarukuni"
+              demoLink="https://kudarukuni.vercel.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard

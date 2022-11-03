@@ -92,17 +92,6 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-{/*Set up and include a blog here.*/}
-{/*            <Nav.Item>
-              <Nav.Link
-                href="https://blogs.soumya-jit.tech/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
-            </Nav.Item>
-*/}
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/kudarukuni/portfolio.git"
@@ -111,6 +100,8 @@ function NavBar() {
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillGithub style={{ fontSize: "1.1em" }} />
+              </Button>
+              <Button href="+263782516263" target="_blank">Call Now!!
               </Button>
             </Nav.Item>
           </Nav>

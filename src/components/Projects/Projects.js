@@ -9,6 +9,7 @@ import exchange from "../../Assets/Projects/sky-token-exchange.png";
 import cookies from "../../Assets/Projects/cookies.png";
 import supplychain from "../../Assets/Projects/supplychain.png";
 import bookstore from "../../Assets/Projects/bookstore.png";
+import uas from "../../Assets/Projects/uas.png";
 
 function Projects() {
   return (

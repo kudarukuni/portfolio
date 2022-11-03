@@ -106,7 +106,10 @@ function NavBar() {
               <Button
                 href="tel:+263782516263"
                 target="_blank"
-              ><CgPhone style={{ fontSize: "1.2em" }} />{" "}Call Now                
+                className="fork-btn-inner"
+              >
+                <CgPhone style={{ fontSize: "1.2em" }} />{" "}       
+                <AiOutlineUser style={{ fontSize: "1.1em" }} />
               </Button>
             </Nav.Item>
           </Nav>

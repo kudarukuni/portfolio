@@ -15,6 +15,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import { CgPhone } from "react-icons/cg";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -93,13 +94,9 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="+263782516263"
-                onClick={() => updateExpanded(false)}
-              >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> Call Now
-              </Nav.Link>
+              <Button href="https://github.com/kudarukuni/portfolio.git" target="_blank" className="fork-btn-inner">
+                <CgPhone style={{ marginBottom: "2px" }} /> Call Now
+              </Button>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

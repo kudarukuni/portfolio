@@ -92,6 +92,16 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="+263782516263"
+                onClick={() => updateExpanded(false)}
+              >
+                <CgFileDocument style={{ marginBottom: "2px" }} /> Call Now
+              </Nav.Link>
+            </Nav.Item>
+
             <Nav.Item className="fork-btn">
               <Button
                 href="https://github.com/kudarukuni/portfolio.git"
@@ -100,9 +110,7 @@ function NavBar() {
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillGithub style={{ fontSize: "1.1em" }} />
-              </Button><span></span>
-              <Button href="+263782516263" target="_blank">Call Now!!
-              </Button>
+              </Button>              
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

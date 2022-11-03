@@ -57,6 +57,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={uas}
+              isBlog={false}
+              title="Ultimate API Site"
+              description="This is a fully functioning Real Eastate API Website, currently web scrapping available real eastate in Abu Dhabi, Dubai in preparation for the upcomming World Cup 2022."
+              ghLink="https://github.com/kudarukuni/UAS"
+              demoLink="https://uas-kudarukuni.vercel.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={flow}
               isBlog={false}
               title="Kuda Rukuni 3D Portfolio Website"

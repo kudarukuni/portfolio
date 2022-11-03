@@ -17,7 +17,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Project <strong className="purple">Portfolio </strong>
+          My <strong className="purple">Project</strong> Portfolio
         </h1>
         <p style={{ color: "white" }}>
           Here are a few projects I have worked in the year 2022.
@@ -27,7 +27,7 @@ function Projects() {
             <ProjectCard
               imgPath={exchange}
               isBlog={false}
-              title="Decentralized Autonomous Tender System"
+              title="<strong className="purple">Decentralized Autonomous Tender System</strong>"
               description="This is a fully functioning decentralized autonomous organisation application or system where users can vote for a proposed tender."
               ghLink="https://github.com/kudarukuni/DATS"
               demoLink="https://dats-kudarukuni.vercel.app/"

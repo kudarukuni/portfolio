@@ -100,7 +100,7 @@ function NavBar() {
               >
                 <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
                 <AiFillGithub style={{ fontSize: "1.1em" }} />
-              </Button>
+              </Button><span></span>
               <Button href="+263782516263" target="_blank">Call Now!!
               </Button>
             </Nav.Item>

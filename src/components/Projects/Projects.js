@@ -28,6 +28,39 @@ function Projects() {
             <ProjectCard
               imgPath={exchange}
               isBlog={false}
+              title="Blockchain Asset Management System"
+              description="A Blockchain Asset Management System Used To Connect Crypto Wallets Built on top of the Solana Blockchain."
+              ghLink="https://github.com/kudarukuni/BAMS"
+              demoLink="https://bams-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={exchange}
+              isBlog={false}
+              title="On-Chain Movies Forum System"
+              description="An On-Chain Movies Forum System Used For Reviewing Movies. Project was built on top of the Solana Blockchain."
+              ghLink="https://github.com/kudarukuni/ocmf"
+              demoLink="https://ocmf-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={exchange}
+              isBlog={false}
+              title="Goritoto NFT Minting Website"
+              description="The much Anticipated Goritoto NFT deployed on the Solana Blockchain using Metaplex's Candy Machine."
+              ghLink="https://github.com/kudarukuni/grt-ui"
+              demoLink="https://grt-ui-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={exchange}
+              isBlog={false}
               title="Decentralized Autonomous Tender System"
               description="A Decentralized Autonomous Organisation Application were users can vote for a proposed tender."
               ghLink="https://github.com/kudarukuni/DATS"

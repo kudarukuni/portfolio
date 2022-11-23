@@ -11,6 +11,9 @@ import supplychain from "../../Assets/Projects/supplychain.png";
 import bookstore from "../../Assets/Projects/bookstore.png";
 import uas from "../../Assets/Projects/uas.png";
 import ls from "../../Assets/Projects/ls.png";
+import bams from "../../Assets/Projects/bams.png";
+import ocmf from "../../Assets/Projects/ocmf.png";
+import grtui from "../../Assets/Projects/grtui.png";
 
 function Projects() {
   return (
@@ -26,7 +29,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={exchange}
+              imgPath={bams}
               isBlog={false}
               title="Blockchain Asset Management System"
               description="A Blockchain Asset Management System Used To Connect Crypto Wallets Built on top of the Solana Blockchain."
@@ -37,7 +40,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={exchange}
+              imgPath={ocmf}
               isBlog={false}
               title="On-Chain Movies Forum System"
               description="An On-Chain Movies Forum System Used For Reviewing Movies. Project was built on top of the Solana Blockchain."
@@ -48,7 +51,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={exchange}
+              imgPath={grtui}
               isBlog={false}
               title="Goritoto NFT Minting Website"
               description="The much Anticipated Goritoto NFT deployed on the Solana Blockchain using Metaplex's Candy Machine."

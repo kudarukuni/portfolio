@@ -8,17 +8,17 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello once a<span className="purple">gain! Nice to see</span> you made i<span className="purple">t here, as mentioned </span>earlier my na<span className="purple">me is Kuda Rukuni, </span>
-            I'm from th<span className="purple">e capital city of</span> Harare, in Zim<span className="purple">babwe.</span>
+            Hello once a<span className="purple">gain! Nice to see</span> you made i<span className="white">t here, as mentioned </span>earlier my na<span className="purple">me is Kuda Rukuni, </span>
+            I'm from th<span className="white">e capital city of</span> Harare, in Zim<span className="purple">babwe.</span>
             <br />
-            <br />Life has its t<span className="purple">wists and turns. My</span> experience r<span className="purple">anges across many </span>spectrums. 
-            I’<span className="purple">m fortunate to have</span> a full-time <span className="purple">role as a Senior </span>Technician w<span className="purple">orking on a large</span> Audio and <span className="purple">Visual Solutions </span>Startup kn<span className="purple">own as Netcast</span> Systems.
-            <br />
-            <br />
-            I’ve been an <span className="purple">NFT</span> Collector for 3 years and a <span className="purple">Full-Stack</span> Web <span className="purple">Developer</span> for 8 years. 
+            <br />Life has its t<span className="white">wists and turns. My</span> experience r<span className="purple">anges across many </span>spectrums. 
+            I’<span className="white">m fortunate to have</span> a full-time <span className="purple">role as a Senior </span>Technician w<span className="white">orking on a large</span> Audio and <span className="purple">Visual Solutions </span>Startup kn<span className="white">own as Netcast</span> Systems.
             <br />
             <br />
-            I’ve always had a passion for <span className="purple">art, economics, music, aviation and design</span>. When I discovered the power of <span className="purple">Web Development</span>, it opened a world of endless possibilities <span className="purple">&</span> opportunities. 
+            I’ve been an <span className="purple">NFT</span> Collector for 3 years and a <span className="white">Full-Stack</span> Web <span className="purple">Developer</span> for 8 years. 
+            <br />
+            <br />
+            I’ve always had a passion for <span className="white">art, economics, music, aviation and design</span>. When I discovered the power of <span className="purple">Web Development</span>, it opened a world of endless possibilities <span className="white">&</span> opportunities. 
             I <span className="purple">was</span> now able to finally blend my <span className="purple">skills</span> and passions into creating <span className="purple">awesome</span> projects that help the world. 
             From front-end<span className="purple">/</span>back-end design, global macro analysis, to <span className="purple">blockchain</span> development and on-chain analytics.
             <br />

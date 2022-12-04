@@ -14,6 +14,8 @@ import ls from "../../Assets/Projects/ls.png";
 import bams from "../../Assets/Projects/bams.png";
 import ocmf from "../../Assets/Projects/ocmf.png";
 import grtui from "../../Assets/Projects/grtui.png";
+import nre from "../../Assets/Projects/nre.png";
+import padhen from "../../Assets/Projects/padhen.png";
 
 function Projects() {
   return (
@@ -27,6 +29,28 @@ function Projects() {
           Here are a few projects I have worked in the year 2022.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nre}
+              isBlog={false}
+              title="Nawillow's Real Asstate System"
+              description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
+              ghLink="https://github.com/kudarukuni/NRE"
+              demoLink="https://nre-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={padhen}
+              isBlog={false}
+              title="Padhen | Perekedza Mwana"
+              description="A Web-2.0 Carpooling And Rideshare Management System"
+              ghLink="https://github.com/kudarukuni/padhen"
+              demoLink="https://padhen-kudarukuni.vercel.app/"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bams}

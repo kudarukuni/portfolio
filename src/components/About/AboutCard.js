@@ -8,11 +8,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello once a<span className="purple">gain! Nice to see</span> you made i<span className="purple">t here, as mentio</span>ned earlier my name is <span className="purple">Kuda Rukuni</span>, 
-            I'm from <span className="purple"> the capital city of Harare, in Zimbabwe.</span>
+            Hello once a<span className="purple">gain! Nice to see</span> you made i<span className="purple">t here, as mentioned </span>earlier my na<span className="purple">me is Kuda Rukuni, </span>
+            I'm from <span className="purple"> th<span className="purple">e capital city of</span> Harare, in Zim<span className="purple">babwe.</span>
             <br />
-            <br />Life has its <span className="purple">twists</span> and <span className="purple">turns</span>. My experience ranges across many spectrums. 
-            I’m fortunate to have a full-time role as a <span className="purple">Senior Technician</span> working on a large Audio and Visual Solutions <span className="purple">Startup</span> known as <span className="purple">Netcast</span> Systems.
+            <br />Life has its t<span className="purple">wists and turns. My</span> experience r<span className="purple">anges across many </span>spectrums. 
+            I’<span className="purple">m fortunate to have</span> a full-time <span className="purple">role as a Senior </span>Technician w<span className="purple">orking on a large</span> Audio and Visual Solutions <span className="purple">Startup</span> known as <span className="purple">Netcast</span> Systems.
             <br />
             <br />
             I’ve been an <span className="purple">NFT</span> Collector for 3 years and a <span className="purple">Full-Stack</span> Web <span className="purple">Developer</span> for 8 years. 

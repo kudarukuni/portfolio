@@ -11,7 +11,7 @@ function AboutCard() {
             Hello once a<span className="purple">gain! Nice to see</span> you made it h<span className="purple">ere, as mentioned </span>earlier my na<span className="white">me is Kuda Rukuni, </span>
             I'm from th<span className="white">e capital city of</span> <span className="purple">Harare, in Zimbabwe.
            
-            <br />Life has its twists and turns. My</span> experience r<span className="white">anges across many </span>spectrums. 
+            Life has its twists and turns. My</span> experience r<span className="white">anges across many </span>spectrums. 
             I’<span className="white">m fortunate to have</span> <span className="purple">a full-time role as a Senior Technician working on a large</span> Audio and <span className="white">Visual Solutions </span>Startup kn<span className="white">own as Netcast</span> Systems.
             
             <br />

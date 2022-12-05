@@ -9,9 +9,9 @@ function AboutCard() {
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
             Hello once a<span className="purple">gain! Nice to see</span> you made it h<span className="purple">ere, as mentioned </span>earlier my na<span className="white">me is Kuda Rukuni, </span>
-            I'm from th<span className="white">e capital city of</span> <span className="purple">Harare, in Zimbabwe. Life has its twists and turns. My</span> experience r<span className="white">anges across many </span>spectrums. 
-            I’<span className="white">m fortunate to have</span> <span className="purple">a full-time role as a Senior Technician working on a large</span> Audio and <span className="white">Visual Solutions </span>Startup kn<span className="white">own as Netcast</span> Systems.
-            
+            I'm from th<span className="white">e capital city of</span> <span className="purple">Harare, in Zimbabwe. Life has its twists and turns. My experience</span> ranges across many </span>spectrums. 
+            I’<span className="white">m fortunate to have</span> a full-time <span className="purple">role as a Senior Technician working on a large Audio and</span> <span className="white">Visual Solutions </span>Startup kn<span className="white">own as Netcast</span> Systems.
+            <br />
             <br />
             I’ve been an <span className="purple">NFT</span> Collector for 3 years and a <span className="purple">Full-Stack</span> Web <span className="white">Developer</span> for 8 years. 
             

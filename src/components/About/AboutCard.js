@@ -8,9 +8,9 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hello once a<span className="purple">gain! Nice to see</span> you made it h<span className="purple">ere, as mentioned </span>earlier my na<span className="white">me is Kuda Rukuni, </span>
+            <span className="purple">H</span>e<span className="purple">l</span>l<span className="purple">o</span> o<span className="purple">n</span>c<span className="purple">e</span> a<span className="purple">gain! Nice to see</span> y<span className="purple">o</span>u <span className="purple">m</span>a<span className="purple">d</span>e <span className="purple">i</span>t h<span className="purple">ere, as mentioned </span><span className="purple">e</span>a<span className="purple">r</span>l<span className="purple">i</span>e<span className="purple">r</span> m<span className="purple">y</span> na<span className="white">me is Kuda Rukuni, </span>
             I'm from th<span className="white">e capital city of</span> <span className="purple">Harare, in Zimbabwe. Life has its twists and turns. My experience</span> ranges across many </span>spectrums. 
-            I’<span className="white">m fortunate to have</span> a full-time <span className="purple">role as a Senior Technician working on a large Audio and</span> <span className="white">Visual Solutions </span>Startup kn<span className="white">own as Netcast</span> Systems.
+            I<span className="purple">’</span><span className="white">m <span className="purple">f</span>o<span className="purple">r</span>t<span className="purple">u</span>n<span className="purple">a</span>t<span className="purple">e</span> t<span className="purple">o</span> h<span className="purple">a</span>v<span className="purple">e</span> a full-time <span className="purple">role as a Senior Technician working on a large Audio and</span> <span className="white">Visual Solutions </span>Startup kn<span className="white">own as Netcast</span> Systems.
             <br />
             <br />
             I’ve been an <span className="purple">NFT</span> Collector for 3 years and a <span className="purple">Full-Stack</span> Web <span className="white">Developer</span> for 8 years. 

@@ -16,7 +16,7 @@ import ocmf from "../../Assets/Projects/ocmf.png";
 import grtui from "../../Assets/Projects/grtui.png";
 import nre from "../../Assets/Projects/nre.png";
 import padhen from "../../Assets/Projects/padhen.png";
-import padhen from "../../Assets/Projects/ssis.png";
+import ssis from "../../Assets/Projects/ssis.png";
 
 function Projects() {
   return (
@@ -87,7 +87,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={grtui}
+              imgPath={ssis}
               isBlog={false}
               title="Solana Student Introduction System"
               description="The Solana Student Introduction System. Get some Solana Devnet Tokens and Leave Your Intro on the Solana Blockchain."

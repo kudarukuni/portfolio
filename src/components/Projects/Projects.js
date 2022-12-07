@@ -16,6 +16,7 @@ import ocmf from "../../Assets/Projects/ocmf.png";
 import grtui from "../../Assets/Projects/grtui.png";
 import nre from "../../Assets/Projects/nre.png";
 import padhen from "../../Assets/Projects/padhen.png";
+import padhen from "../../Assets/Projects/ssis.png";
 
 function Projects() {
   return (
@@ -81,6 +82,17 @@ function Projects() {
               description="The much Anticipated Goritoto NFT deployed on the Solana Blockchain using Metaplex's Candy Machine."
               ghLink="https://github.com/kudarukuni/mnft"
               demoLink="https://mnft-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={grtui}
+              isBlog={false}
+              title="Solana Student Introduction System"
+              description="The Solana Student Introduction System. Get some Solana Devnet Tokens and Leave Your Intro on the Solana Blockchain."
+              ghLink="https://github.com/kudarukuni/ssis"
+              demoLink="https://ssis-kudarukuni.vercel.app/"
             />
           </Col>
 

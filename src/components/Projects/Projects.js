@@ -99,7 +99,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={smr}
+              imgPath={ssis}
               isBlog={false}
               title="Solana Movie Reviewer System"
               description="Solana Movie Reviwer System. Get some Solana Devnet Tokens and Leave Your favourite Movie review on the Solana Blockchain."

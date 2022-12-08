@@ -17,7 +17,6 @@ import grtui from "../../Assets/Projects/grtui.png";
 import nre from "../../Assets/Projects/nre.png";
 import padhen from "../../Assets/Projects/padhen.png";
 import ssis from "../../Assets/Projects/ssis.png";
-import smr from "../../Assets/Projects/smr.png";
 
 function Projects() {
   return (

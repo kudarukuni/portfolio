@@ -17,6 +17,7 @@ import grtui from "../../Assets/Projects/grtui.png";
 import nre from "../../Assets/Projects/nre.png";
 import padhen from "../../Assets/Projects/padhen.png";
 import ssis from "../../Assets/Projects/ssis.png";
+import smr from "../../Assets/Projects/smr.png";
 
 function Projects() {
   return (
@@ -93,6 +94,17 @@ function Projects() {
               description="The Solana Student Introduction System. Get some Solana Devnet Tokens and Leave Your Intro on the Solana Blockchain."
               ghLink="https://github.com/kudarukuni/ssis"
               demoLink="https://ssis-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={smr}
+              isBlog={false}
+              title="Solana Movie Reviewer System"
+              description="Solana Movie Reviwer System. Get some Solana Devnet Tokens and Leave Your favourite Movie review on the Solana Blockchain."
+              ghLink="https://github.com/kudarukuni/smr"
+              demoLink="https://smr-kudarukuni.vercel.app/"
             />
           </Col>
 

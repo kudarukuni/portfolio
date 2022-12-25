@@ -81,8 +81,8 @@ function Projects() {
               isBlog={false}
               title="Goritoto NFT Minting Website"
               description="The much Anticipated Goritoto NFT deployed on the Solana Blockchain using Metaplex's Candy Machine."
-              ghLink="https://github.com/kudarukuni/mnft"
-              demoLink="https://mnft-kudarukuni.vercel.app/"
+              ghLink="https://github.com/kudarukuni/gnft"
+              demoLink="https://gnft-kudarukuni.vercel.app/"
             />
           </Col>
 

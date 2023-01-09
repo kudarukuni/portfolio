@@ -17,7 +17,7 @@ function Footer() {
           <h3>Designed <span className="purple">and</span> Developed by <span className="purple">Kuda</span> Rukuni</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright <span className="purple">©</span> {year}</h3>
+          <h3>All Rights Reserved <span className="purple">®</span>. Copyright <span className="purple">©</span> Kuda Rukuni {year}<span className="purple">™</span></h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

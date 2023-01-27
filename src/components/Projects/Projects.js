@@ -18,6 +18,8 @@ import nre from "../../Assets/Projects/nre.png";
 import padhen from "../../Assets/Projects/padhen.png";
 import ssis from "../../Assets/Projects/ssis.png";
 import smr from "../../Assets/Projects/smr.png";
+import goromonzi from "../../Assets/Projects/goromonzi.png";
+import cnft from "../../Assets/Projects/cnft.png";
 
 function Projects() {
   return (
@@ -31,6 +33,28 @@ function Projects() {
           Here are a few projects I have worked in the year 2022.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={goromonzi}
+              isBlog={false}
+              title="Goromonzi - Dama RaZara"
+              description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $JUC - JuCoin."
+              ghLink="https://github.com/kudarukuni/GOROMONZI"
+              demoLink="https://goromonzi-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cnft}
+              isBlog={false}
+              title="Chipoko NFT Minting Website (No Staking)"
+              description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
+              ghLink="https://github.com/kudarukuni/CNFT"
+              demoLink="https://cnft-kudarukuni.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={nre}

@@ -46,23 +46,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={cnft}
-              isBlog={false}
-              title="Chipoko NFT Minting Website (No Staking)"
-              description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
-              ghLink="https://github.com/kudarukuni/CNFT"
-              demoLink="https://cnft-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={nre}
               isBlog={false}
               title="Nawillow's Real Asstate System"
               description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
               ghLink="https://github.com/kudarukuni/NRE"
               demoLink="https://nre-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={grtui}
+              isBlog={false}
+              title="Goritoto NFT Minting Website"
+              description="The much Anticipated Goritoto NFT deployed on the Solana Blockchain using Metaplex's Candy Machine."
+              ghLink="https://github.com/kudarukuni/CHIPOKO"
+              demoLink="https://chipoko-kudarukuni.vercel.app/"
             />
           </Col>
 
@@ -76,7 +76,18 @@ function Projects() {
               demoLink="https://padhen-kudarukuni.vercel.app/"
             />
           </Col>
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cnft}
+              isBlog={false}
+              title="Chipoko NFT Minting Website (No Staking)"
+              description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
+              ghLink="https://github.com/kudarukuni/CNFT"
+              demoLink="https://cnft-kudarukuni.vercel.app/"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bams}
@@ -97,40 +108,7 @@ function Projects() {
               ghLink="https://github.com/kudarukuni/ocmf"
               demoLink="https://ocmf-kudarukuni.vercel.app/"
             />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={grtui}
-              isBlog={false}
-              title="Goritoto NFT Minting Website"
-              description="The much Anticipated Goritoto NFT deployed on the Solana Blockchain using Metaplex's Candy Machine."
-              ghLink="https://github.com/kudarukuni/gnft"
-              demoLink="https://gnft-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ssis}
-              isBlog={false}
-              title="Solana Student Introduction System"
-              description="The Solana Student Introduction System. Get some Solana Devnet Tokens and Leave Your Intro on the Solana Blockchain."
-              ghLink="https://github.com/kudarukuni/ssis"
-              demoLink="https://ssis-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={smr}
-              isBlog={false}
-              title="Solana Movie Reviewer System"
-              description="Solana Movie Reviwer System. Get some Solana Devnet Tokens and Leave Your favourite Movie review on the Solana Blockchain."
-              ghLink="https://github.com/kudarukuni/smr"
-              demoLink="https://smr-kudarukuni.vercel.app/"
-            />
-          </Col>
+          </Col>          
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -184,6 +162,28 @@ function Projects() {
               description="This is a fully functioning Javascript Login System."
               ghLink="https://github.com/kudarukuni/Login_System"
               demoLink="https://login-system-kudarukuni.vercel.app/"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ssis}
+              isBlog={false}
+              title="Solana Student Introduction System"
+              description="The Solana Student Introduction System. Get some Solana Devnet Tokens and Leave Your Intro on the Solana Blockchain."
+              ghLink="https://github.com/kudarukuni/ssis"
+              demoLink="https://ssis-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={smr}
+              isBlog={false}
+              title="Solana Movie Reviewer System"
+              description="Solana Movie Reviwer System. Get some Solana Devnet Tokens and Leave Your favourite Movie review on the Solana Blockchain."
+              ghLink="https://github.com/kudarukuni/smr"
+              demoLink="https://smr-kudarukuni.vercel.app/"
             />
           </Col>
 

@@ -59,8 +59,8 @@ function Projects() {
             <ProjectCard
               imgPath={grtui}
               isBlog={false}
-              title="Goritoto NFT Minting Website"
-              description="The much Anticipated Goritoto NFT deployed on the Solana Blockchain using Metaplex's Candy Machine."
+              title="Chipoko NFT Minting & Staking Website"
+              description="The much anticipated Chipoko NFT minting and staking website deployed on the Solana Blockchain using Metaplex's Candy Machine."
               ghLink="https://github.com/kudarukuni/CHIPOKO"
               demoLink="https://chipoko-kudarukuni.vercel.app/"
             />
@@ -82,7 +82,7 @@ function Projects() {
               imgPath={cnft}
               isBlog={false}
               title="Chipoko NFT Minting Website (No Staking)"
-              description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
+              description="The much anticipated Chipoko NFT minting website deployed on the Solana Blockchain using Metaplex's Candy Machine."
               ghLink="https://github.com/kudarukuni/CNFT"
               demoLink="https://cnft-kudarukuni.vercel.app/"
             />

@@ -20,8 +20,8 @@ import ssis from "../../Assets/Projects/ssis.png";
 import smr from "../../Assets/Projects/smr.png";
 import goromonzi from "../../Assets/Projects/goromonzi.png";
 import cnft from "../../Assets/Projects/cnft.png";
-import nes from "../../Assets/Projects/nes.png";
-import wchw from "../../Assets/Projects/wchw.png";
+import nes from "../../Assets/nes.png";
+import wchw from "../../Assets/wchw.png";
 
 function Projects() {
   return (

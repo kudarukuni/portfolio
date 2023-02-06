@@ -20,6 +20,8 @@ import ssis from "../../Assets/Projects/ssis.png";
 import smr from "../../Assets/Projects/smr.png";
 import goromonzi from "../../Assets/Projects/goromonzi.png";
 import cnft from "../../Assets/Projects/cnft.png";
+import nes from "../../Assets/Projects/nes.png";
+import wchw from "../../Assets/Projects/wchw.png";
 
 function Projects() {
   return (
@@ -90,6 +92,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={nes}
+              isBlog={false}
+              title="The SME Online Store 2.0"
+              description="An E-Commerce website designed for a clothing store in Harare"
+              ghLink="https://github.com/kudarukuni/NES"
+              demoLink="https://nes-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={bams}
               isBlog={false}
               title="Blockchain Asset Management System"
@@ -154,6 +167,17 @@ function Projects() {
             />
           </Col>
           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={wchw}
+              isBlog={false}
+              title="Welding Company HTML Website"
+              description="A SME company approached me saying they only needed a static website with all their infomation online"
+              ghLink="https://github.com/kudarukuni/WCHW"
+              demoLink="https://wchw-kudarukuni.vercel.app/"              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={ls}

@@ -18,7 +18,7 @@ import nre from "../../Assets/Projects/nre.png";
 import padhen from "../../Assets/Projects/padhen.png";
 import ssis from "../../Assets/Projects/ssis.png";
 import smr from "../../Assets/Projects/smr.png";
-import goromonzi from "../../Assets/Projects/goromonzi.png";
+import zadzadama from "../../Assets/Projects/zadzadama.png";
 import cnft from "../../Assets/Projects/cnft.png";
 import nes from "../../Assets/nes.png";
 import wchw from "../../Assets/wchw.png";
@@ -40,9 +40,9 @@ function Projects() {
               imgPath={goromonzi}
               isBlog={false}
               title="Goromonzi - Dama RaZara"
-              description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $JUC - JuCoin."
-              ghLink="https://github.com/kudarukuni/GOROMONZI"
-              demoLink="https://goromonzi-kudarukuni.vercel.app/"
+              description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $SUG - Sugar Blocks."
+              ghLink="https://github.com/kudarukuni/ZADZADAMA"
+              demoLink="https://zadzadama-kudarukuni.vercel.app/"
             />
           </Col>
 

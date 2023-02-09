@@ -37,7 +37,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={goromonzi}
+              imgPath={zadzadama}
               isBlog={false}
               title="Goromonzi - Dama RaZara"
               description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $SUG - Sugar Blocks."

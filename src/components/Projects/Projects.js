@@ -22,6 +22,7 @@ import zadzadama from "../../Assets/Projects/zadzadama.png";
 import cnft from "../../Assets/Projects/cnft.png";
 import nes from "../../Assets/nes.png";
 import wchw from "../../Assets/wchw.png";
+import vnft from "../../Assets/vnft.png";
 
 function Projects() {
   return (
@@ -32,7 +33,7 @@ function Projects() {
           My Project Portfolio
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I have worked in the year 2022.
+          Here are a few projects I have developed in the year 2022.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -59,12 +60,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={grtui}
+              imgPath={vnft}
               isBlog={false}
-              title="Chipoko NFT Minting & Staking Website"
-              description="The much anticipated Chipoko NFT minting and staking website deployed on the Solana Blockchain using Metaplex's Candy Machine."
-              ghLink="https://github.com/kudarukuni/CHIPOKO"
-              demoLink="https://chipoko-kudarukuni.vercel.app/"
+              title="Valeny's First Words NFT Collection"
+              description="The much anticipated Valeny's First Words NFT Collection website deployed on the Ethereum Blockchain using IPFS & Solidity."
+              ghLink="https://github.com/kudarukuni/VNFT"
+              demoLink="https://vnft.kudarukuni.repl.co/"
             />
           </Col>
 
@@ -208,6 +209,18 @@ function Projects() {
               description="Solana Movie Reviwer System. Get some Solana Devnet Tokens and Leave Your favourite Movie review on the Solana Blockchain."
               ghLink="https://github.com/kudarukuni/smr"
               demoLink="https://smr-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={grtui}
+              isBlog={false}
+              title="Chipoko NFT"
+              description="The long awaited Chipoko NFT Collection on the Solana Blockchain, with NFT Staking capabilities to Redeem $GRC (GoritotoCoins) that can be used to purchase Lootboxes and Gears or Skins for your NFT"
+              ghLink="https://github.com/kudarukuni/CHIPOKO"
+              demoLink="https://chipoko-kudarukuni.vercel.app/"
             />
           </Col>
 

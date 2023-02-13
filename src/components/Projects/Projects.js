@@ -212,7 +212,6 @@ function Projects() {
             />
           </Col>
 
-          <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={grtui}

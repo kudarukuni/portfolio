@@ -20,6 +20,7 @@ import ssis from "../../Assets/Projects/ssis.png";
 import smr from "../../Assets/Projects/smr.png";
 import zadzadama from "../../Assets/Projects/zadzadama.png";
 import cnft from "../../Assets/Projects/cnft.png";
+import tumra from "../../Assets/Projects/tumra.png";
 import nes from "../../Assets/nes.png";
 import wchw from "../../Assets/wchw.png";
 import vnft from "../../Assets/vnft.png";
@@ -44,6 +45,17 @@ function Projects() {
               description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $SUG - Sugar Blocks."
               ghLink="https://github.com/kudarukuni/ZADZADAMA"
               demoLink="https://zadzadama-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tumra}
+              isBlog={false}
+              title="T U M R A | Tumira Mari Padhen Pako Uri Kwauri"
+              description="A money remittance application designed for sending money in FIAT Currencies. A blockchain version will be introduced once the Zim Cyber City Project is Complete !!."
+              ghLink="https://github.com/kudarukuni/tumra"
+              demoLink="https://tumra-kudarukuni.vercel.app/"
             />
           </Col>
 

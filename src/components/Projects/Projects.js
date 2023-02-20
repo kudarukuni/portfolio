@@ -19,7 +19,7 @@ import padhen from "../../Assets/Projects/padhen.png";
 import ssis from "../../Assets/Projects/ssis.png";
 import smr from "../../Assets/Projects/smr.png";
 import zadzadama from "../../Assets/Projects/zadzadama.png";
-import cnft from "../../Assets/Projects/cnft.png";
+import cnft from "../../Assets/cnft.png";
 import tumra from "../../Assets/Projects/tumra.png";
 import nes from "../../Assets/nes.png";
 import wchw from "../../Assets/wchw.png";
@@ -37,6 +37,17 @@ function Projects() {
           Here are a few projects I have developed in the year 2022.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={exchange}
+              isBlog={false}
+              title="Decentralized Autonomous Tender System"
+              description="A Decentralized Autonomous Organisation Application were users can vote for a proposed tender."
+              ghLink="https://github.com/kudarukuni/DATS"
+              demoLink="https://dats-kudarukuni.vercel.app/"
+            />
+          </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={zadzadama}
@@ -61,12 +72,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={nre}
+              imgPath={cnft}
               isBlog={false}
-              title="Nawillow's Real Asstate System"
-              description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
-              ghLink="https://github.com/kudarukuni/NRE"
-              demoLink="https://nre-kudarukuni.vercel.app/"
+              title="Chipoko NFT Minting Website (No Staking)"
+              description="The much anticipated Chipoko NFT minting website deployed on the Solana Blockchain using Metaplex's Candy Machine."
+              ghLink="https://github.com/kudarukuni/CNFT"
+              demoLink="https://cnft-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={grtui}
+              isBlog={false}
+              title="Chipoko NFT"
+              description="The long awaited Chipoko NFT Collection on the Solana Blockchain, with NFT Staking capabilities to Redeem $GRC (GoritotoCoins) that can be used to purchase Lootboxes and Gears or Skins for your NFT"
+              ghLink="https://github.com/kudarukuni/CHIPOKO"
+              demoLink="https://chipoko-kudarukuni.vercel.app/"
             />
           </Col>
 
@@ -83,89 +105,12 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={padhen}
-              isBlog={false}
-              title="Padhen | Perekedza Mwana"
-              description="A Web-2.0 Carpooling And Rideshare Management System"
-              ghLink="https://github.com/kudarukuni/padhen"
-              demoLink="https://padhen-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={cnft}
-              isBlog={false}
-              title="Chipoko NFT Minting Website (No Staking)"
-              description="The much anticipated Chipoko NFT minting website deployed on the Solana Blockchain using Metaplex's Candy Machine."
-              ghLink="https://github.com/kudarukuni/CNFT"
-              demoLink="https://cnft-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={nes}
               isBlog={false}
               title="The SME Online Store 2.0"
               description="An E-Commerce website designed for a clothing store in Harare"
               ghLink="https://github.com/kudarukuni/NES"
               demoLink="https://nes-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={bams}
-              isBlog={false}
-              title="Blockchain Asset Management System"
-              description="A Blockchain Asset Management System Used To Connect Crypto Wallets Built on top of the Solana Blockchain."
-              ghLink="https://github.com/kudarukuni/BAMS"
-              demoLink="https://bams-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={ocmf}
-              isBlog={false}
-              title="On-Chain Movies Forum System"
-              description="An On-Chain Movies Forum System Used For Reviewing Movies. Project was built on top of the Solana Blockchain."
-              ghLink="https://github.com/kudarukuni/ocmf"
-              demoLink="https://ocmf-kudarukuni.vercel.app/"
-            />
-          </Col>          
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={exchange}
-              isBlog={false}
-              title="Decentralized Autonomous Tender System"
-              description="A Decentralized Autonomous Organisation Application were users can vote for a proposed tender."
-              ghLink="https://github.com/kudarukuni/DATS"
-              demoLink="https://dats-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={supplychain}
-              isBlog={false}
-              title="BatPack NFT Marketplace"
-              description="A Decentralized NFT E-Commerce Web 3.0 Application were users can mint my Bat-Pack NFT."
-              ghLink="https://github.com/kudarukuni/BPN"
-              demoLink="https://bat-pack-nft-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={dns}
-              isBlog={false}
-              title="Blockchain Election Voters Roll"
-              description="A Decentralized Voting Application were users vote for their favourite Presidential candidate."
-              ghLink="https://github.com/kudarukuni/BEVR"
-              demoLink="https://bevr-kudarukuni.vercel.app/"              
             />
           </Col>
 
@@ -190,15 +135,37 @@ function Projects() {
               demoLink="https://wchw-kudarukuni.vercel.app/"              
             />
           </Col>
+                                         
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={supplychain}
+              isBlog={false}
+              title="BatPack NFT Marketplace"
+              description="A Decentralized NFT E-Commerce Web 3.0 Application were users can mint my Bat-Pack NFT."
+              ghLink="https://github.com/kudarukuni/BPN"
+              demoLink="https://bat-pack-nft-kudarukuni.vercel.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ls}
+              imgPath={bams}
               isBlog={false}
-              title="JS Login System"
-              description="This is a fully functioning Javascript Login System."
-              ghLink="https://github.com/kudarukuni/Login_System"
-              demoLink="https://login-system-kudarukuni.vercel.app/"              
+              title="Blockchain Asset Management System"
+              description="A Blockchain Asset Management System Used To Connect Crypto Wallets Built on top of the Solana Blockchain."
+              ghLink="https://github.com/kudarukuni/BAMS"
+              demoLink="https://bams-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dns}
+              isBlog={false}
+              title="Blockchain Election Voters Roll"
+              description="A Decentralized Voting Application were users vote for their favourite Presidential candidate."
+              ghLink="https://github.com/kudarukuni/BEVR"
+              demoLink="https://bevr-kudarukuni.vercel.app/"              
             />
           </Col>
 
@@ -215,6 +182,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={ls}
+              isBlog={false}
+              title="JS Login System"
+              description="This is a fully functioning Javascript Login System."
+              ghLink="https://github.com/kudarukuni/Login_System"
+              demoLink="https://login-system-kudarukuni.vercel.app/"              
+            />
+          </Col>
+        
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={smr}
               isBlog={false}
               title="Solana Movie Reviewer System"
@@ -226,25 +204,36 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={grtui}
+              imgPath={nre}
               isBlog={false}
-              title="Chipoko NFT"
-              description="The long awaited Chipoko NFT Collection on the Solana Blockchain, with NFT Staking capabilities to Redeem $GRC (GoritotoCoins) that can be used to purchase Lootboxes and Gears or Skins for your NFT"
-              ghLink="https://github.com/kudarukuni/CHIPOKO"
-              demoLink="https://chipoko-kudarukuni.vercel.app/"
+              title="Nawillow's Real Asstate System"
+              description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
+              ghLink="https://github.com/kudarukuni/NRE"
+              demoLink="https://nre-kudarukuni.vercel.app/"
             />
-          </Col>
+          </Col>          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bookstore}
+              imgPath={padhen}
               isBlog={false}
-              title="Digital Asset Management System"
-              description="A Decentralized Digital Asset Managaement Application were users can store Digital Assets."
-              ghLink="https://github.com/kudarukuni/DAMS"
-              demoLink="https://dams-kudarukuni.vercel.app/"              
+              title="Padhen | Perekedza Mwana"
+              description="A Web-2.0 Carpooling And Rideshare Management System"
+              ghLink="https://github.com/kudarukuni/padhen"
+              demoLink="https://padhen-kudarukuni.vercel.app/"
             />
-          </Col>          
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={ocmf}
+              isBlog={false}
+              title="On-Chain Movies Forum System"
+              description="An On-Chain Movies Forum System Used For Reviewing Movies. Project was built on top of the Solana Blockchain."
+              ghLink="https://github.com/kudarukuni/ocmf"
+              demoLink="https://ocmf-kudarukuni.vercel.app/"
+            />
+          </Col>
           
           <Col md={4} className="project-card">
             <ProjectCard
@@ -276,6 +265,17 @@ function Projects() {
               description="This is my personal Portfolio 3D Contact Landing Page that I made using Node.js and Vite.js."
               ghLink="https://github.com/kudarukuni/contactkuda"
               demoLink="https://contactkuda-kudarukuni.vercel.app/"   
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={bookstore}
+              isBlog={false}
+              title="Digital Asset Management System"
+              description="A Decentralized Digital Asset Managaement Application were users can store Digital Assets."
+              ghLink="https://github.com/kudarukuni/DAMS"
+              demoLink="https://dams-kudarukuni.vercel.app/"              
             />
           </Col>
         </Row>

@@ -24,6 +24,9 @@ import tumra from "../../Assets/Projects/tumra.png";
 import nes from "../../Assets/nes.png";
 import wchw from "../../Assets/wchw.png";
 import vnft from "../../Assets/vnft.png";
+import soldapp from "../../Assets/soldapp.png";
+import shmdapp from "../../Assets/shmdapp.png";
+import pidapp from "../../Assets/pidapp.png";
 
 function Projects() {
   return (
@@ -235,6 +238,39 @@ function Projects() {
             />
           </Col>
           
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={soldapp}
+              isBlog={false}
+              title="Solana Decentralized Application Boilerplate"
+              description="A boiler plate code for building DApps on the Solana Blockchain"
+              ghLink="https://github.com/kudarukuni/SPDAC"
+              demoLink="https://spdac-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={shmdapp}
+              isBlog={false}
+              title="Shardeum Decentralized Application Boilerplate"
+              description="A boiler plate code for building DApps on the Shardeum Blockchain"
+              ghLink="https://github.com/kudarukuni/njema-dapp"
+              demoLink="https://njema-dapp-kudarukuni.vercel.app/"              
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pidapp}
+              isBlog={false}
+              title="Pi Network Decentralized Application Boilerplate"
+              description="A boiler plate code for building DApps on the Pi Network Blockchain"
+              ghLink="https://github.com/kudarukuni/PICIRCLE_FRONTEND"
+              demoLink="https://picircle-frontend-kudarukuni.vercel.app/"              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={flow}

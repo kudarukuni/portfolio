@@ -46,7 +46,7 @@ function Projects() {
               imgPath={maclouds}
               isBlog={false}
               title="Maclouds Money Remittance"
-              description="A money remittance application designed for sending money in FIAT Currencies. A blockchain version will be introduced once the Zim Cyber City Project is Complete !!."
+              description="A money remittance application designed for sending money in FIAT Currencies."
               ghLink="https://github.com/kudarukuni/MACLOUDS"
               demoLink="http://maclouds.co.uk:8000"
             />

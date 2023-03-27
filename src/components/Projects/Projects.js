@@ -27,6 +27,7 @@ import vnft from "../../Assets/vnft.png";
 import soldapp from "../../Assets/soldapp.png";
 import shmdapp from "../../Assets/shmdapp.png";
 import pidapp from "../../Assets/pidapp.png";
+import maclouds from "../../Assets/maclouds.png";
 
 function Projects() {
   return (
@@ -40,6 +41,17 @@ function Projects() {
           Here are a few projects I have developed in the year 2022.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={maclouds}
+              isBlog={false}
+              title="Decentralized Autonomous Tender System"
+              description="A money remittance application designed for sending money in FIAT Currencies. A blockchain version will be introduced once the Zim Cyber City Project is Complete !!."
+              ghLink="https://github.com/kudarukuni/MACLOUDS"
+              demoLink="http://maclouds.co.uk:8000"
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={exchange}

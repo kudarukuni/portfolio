@@ -16,14 +16,14 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h2 style={{ fontSize: "4.0em" }}>
-              <strong>ALLOW <span><font color="#27BCEE">ME</font></span> TO <span> <font color="#27BCEE">RE-INTRODUCE</font> </span> MYSELF</strong>
+              <strong>ALLOW <span><font color="#27CBEE">ME</font></span> TO <span> <font color="#27CBEE">RE-INTRODUCE</font> </span> MYSELF</strong>
             </h2>
             <p className="home-about-body">
               My journey as a <span>Software Engineer</span> started way back in the year <span>2012</span> when I was introduced to <span>Linux terminal</span> for the first time. I began with the ambition of becoming a quote on quote <span>"unethical-hacker"</span>. I advanced my Kali Linux <span>skills</span> to the point were I decided to <span>develop</span> an unhackable solution (<span><font color="#27BCEE">website</font></span>). At this very moment I realized I was an <span>IT Solutions Expert</span>. 
               <br />
               <br />I am fluent in all programming languages. Below is a  list of my favourite programming languages.
               <i>
-                <b><font color="#27BCEE"> Python, PHP, C++, Javascript, Typescript, Java, Rust and Solidity</font>. </b>
+                <b><font color="#27CBEE"> Python, PHP, C++, Javascript, Typescript, Java, Rust and Solidity</font>. </b>
               </i>
               <br />
               <br />
@@ -32,13 +32,13 @@ function Home2() {
                 <b>Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b>
-                  <font color="#27BCEE">IoT, Blockchain, Robotics, Quantum Computing, Nueral Science, Extra Terestrial Exploration and Deep Learning</font>.
+                  <font color="#27CBEE">IoT, Blockchain, Robotics, Quantum Computing, Nueral Science, Extra Terestrial Exploration and Deep Learning</font>.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I apply my passion for developing products
-              with <font color="#27BCEE"><b>Node.js</b></font> and
+              with <font color="#27CBEE"><b>Node.js</b></font> and
               <i>
                 <b>
                   {" "}
@@ -47,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <font color="#27BCEE"><b> React.js and Next.js</b></font>
+                <font color="#27CBEE"><b> React.js and Next.js</b></font>
               </i>
             </p>
           </Col>
@@ -72,9 +72,9 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
+                </a></font>
               </li>
-              <li className="social-icons">
+              <li className="social-icons"><font color = "#27CBEE">
                 <a
                   href="https://twitter.com/Naswillow"
                   target="_blank"
@@ -82,9 +82,9 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
-                </a>
+                </a></font>
               </li>
-              <li className="social-icons">
+              <li className="social-icons"><font color = "#27CBEE">
                 <a
                   href="https://www.linkedin.com/in/kudarukuni/"
                   target="_blank"
@@ -92,7 +92,7 @@ function Home2() {
                   className="icon-colour  home-social-icons"
                 >
                   <FaLinkedinIn />
-                </a>
+                </a></font>
               </li>
 {/*              <li className="social-icons">
                 <a
@@ -103,7 +103,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>*/}</font>
+              </li>*/}
             </ul>
           </Col>
         </Row>

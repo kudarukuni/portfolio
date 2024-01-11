@@ -19,11 +19,11 @@ function Home2() {
               <strong>ALLOW <span><font color="#27BCEE">ME</font></span> TO <span> <font color="#27BCEE">RE-INTRODUCE</font> </span> MYSELF</strong>
             </h2>
             <p className="home-about-body">
-              My journey as a <span>Software Engineer</span> started way back in the year <span>2012</span> when I was introduced to <span>Linux terminal</span> for the first time. I began with the ambition of becoming an <span>unethical-hacker</span>. I advanced my Kali Linux <span>skills</span> to the point were I decided to <span>develop</span> an unhackable solution (<span>website</span>). At this very moment I realized I was an <span>IT Solutions Expert</span>. 
+              My journey as a <span>Software Engineer</span> started way back in the year <span>2012</span> when I was introduced to <span>Linux terminal</span> for the first time. I began with the ambition of becoming a quote on quote <span>"unethical-hacker"</span>. I advanced my Kali Linux <span>skills</span> to the point were I decided to <span>develop</span> an unhackable solution (<span><font color="#27BCEE">website</font></span>). At this very moment I realized I was an <span>IT Solutions Expert</span>. 
               <br />
               <br />I am fluent in all programming languages. Below is a  list of my favourite programming languages.
               <i>
-                <b> Python, PHP, C++, Javascript, Typescript, Java, Rust and Solidity. </b>
+                <b><font color="#27BCEE"> Python, PHP, C++, Javascript, Typescript, Java, Rust and Solidity</font>. </b>
               </i>
               <br />
               <br />
@@ -32,13 +32,13 @@ function Home2() {
                 <b>Web Technologies and Products </b> and
                 also in areas related to{" "}
                 <b>
-                  IoT, Blockchain, Robotics, Quantum Computing, Nueral Science, Extra Terestrial Exploration and Deep Learning.
+                  <font color="#27BCEE">IoT, Blockchain, Robotics, Quantum Computing, Nueral Science, Extra Terestrial Exploration and Deep Learning</font>.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I apply my passion for developing products
-              with <b>Node.js</b> and
+              with <font color="#27BCEE"><b>Node.js</b></font> and
               <i>
                 <b>
                   {" "}
@@ -47,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b> React.js and Next.js</b>
+                <font color="#27BCEE"><b> React.js and Next.js</b></font>
               </i>
             </p>
           </Col>
@@ -59,12 +59,12 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND <span>ME</span> ON</h1>
+            <h2>FIND <span>ME</span> ON</h2>
             <p>
               Feel free to <span>connect </span>with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
+              <li className="social-icons"><font color = "#27CBEE">
                 <a
                   href="https://github.com/kudarukuni"
                   target="_blank"
@@ -103,7 +103,7 @@ function Home2() {
                 >
                   <AiFillInstagram />
                 </a>
-              </li>*/}
+              </li>*/}</font>
             </ul>
           </Col>
         </Row>

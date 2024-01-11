@@ -17,7 +17,6 @@ function Type() {
         loop: true,
         deleteSpeed: 50,
       }}
-      style={{ color: "#27BCEE" }}
     />
   );
 }

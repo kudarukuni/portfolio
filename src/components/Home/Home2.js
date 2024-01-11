@@ -16,38 +16,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "4.0em" }}>
-              <strong>ALLOW <span className="purple">ME</span> TO <span className="purple"> INTRODUCE </span> MYSELF</strong>
+              <strong>ALLOW <span>ME</span> TO <span> INTRODUCE </span> MYSELF</strong>
             </h1>
             <p className="home-about-body">
-              My journey as a <span className="purple">Software Engineer</span> started way back in the year <span className="purple">2012</span> when I was introduced to <span className="purple">Linux terminal</span> for the first time. I began with the ambition of becoming an <span className="purple">unethical-hacker</span>. I advanced my Kali Linux <span className="purple">skills</span> to the point were I decided to <span className="purple">develop</span> an unhackable solution (<span className="purple">website</span>). At this very moment I realized I was an <span className="purple">IT Solutions Expert</span>. 
+              My journey as a <span>Software Engineer</span> started way back in the year <span>2012</span> when I was introduced to <span>Linux terminal</span> for the first time. I began with the ambition of becoming an <span>unethical-hacker</span>. I advanced my Kali Linux <span>skills</span> to the point were I decided to <span>develop</span> an unhackable solution (<span>website</span>). At this very moment I realized I was an <span>IT Solutions Expert</span>. 
               <br />
               <br />I am fluent in all programming languages. Below is a  list of my favourite programming languages.
               <i>
-                <b className="purple"> Python, PHP, C++, Javascript, Typescript, Java, Rust and Solidity. </b>
+                <b> Python, PHP, C++, Javascript, Typescript, Java, Rust and Solidity. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b>Web Technologies and Products </b> and
                 also in areas related to{" "}
-                <b className="purple">
+                <b>
                   IoT, Blockchain, Robotics, Quantum Computing, Nueral Science, Extra Terestrial Exploration and Deep Learning.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              with <b>Node.js</b> and
               <i>
-                <b className="purple">
+                <b>
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> React.js and Next.js</b>
+                <b> React.js and Next.js</b>
               </i>
             </p>
           </Col>
@@ -59,9 +59,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND <span className="purple">ME</span> ON</h1>
+            <h1>FIND <span>ME</span> ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span>connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

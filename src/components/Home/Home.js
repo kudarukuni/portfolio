@@ -26,7 +26,7 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
-                <font color="#27BCEE"><Type /></font>
+                <Type />
               </div>
             </Col>
 

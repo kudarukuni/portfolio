@@ -15,9 +15,9 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "4.0em" }}>
+            <h2 style={{ fontSize: "4.0em" }}>
               <strong>ALLOW <span><font color="#27BCEE">ME</font></span> TO <span> <font color="#27BCEE">RE-INTRODUCE</font> </span> MYSELF</strong>
-            </h1>
+            </h2>
             <p className="home-about-body">
               My journey as a <span>Software Engineer</span> started way back in the year <span>2012</span> when I was introduced to <span>Linux terminal</span> for the first time. I began with the ambition of becoming an <span>unethical-hacker</span>. I advanced my Kali Linux <span>skills</span> to the point were I decided to <span>develop</span> an unhackable solution (<span>website</span>). At this very moment I realized I was an <span>IT Solutions Expert</span>. 
               <br />

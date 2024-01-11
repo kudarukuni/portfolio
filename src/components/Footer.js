@@ -14,17 +14,17 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed <span className="purple">and</span> Developed by <span className="purple">Kuda</span> Rukuni</h3>
+          <h3>Designed <span><font color = "#27CBEE">and</font></span> Developed by <span><font color = "#27CBEE">Kuda</font></span> Rukuni</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>All Rights Reserved <span className="purple">®</span>. Copyright <span className="purple">©</span> Kuda Rukuni {year}<span className="purple">™</span></h3>
+          <h3>All Rights Reserved <span><font color = "#27CBEE">®</font></span>. Copyright <span><font color = "#27CBEE">©</font></span> Kuda Rukuni {year}<span><font color = "#27CBEE">™</font></span></h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
                 href="https://github.com/kudarukuni"
-                style={{ color: "white" }}
+                style={{ color: "#27cbee" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -34,7 +34,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://twitter.com/Naswillow"
-                style={{ color: "white" }}
+                style={{ color: "#27cbee" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
@@ -44,7 +44,7 @@ function Footer() {
             <li className="social-icons">
               <a
                 href="https://www.linkedin.com/in/kudarukuni/"
-                style={{ color: "white" }}
+                style={{ color: "#27cbee" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >

@@ -25,7 +25,7 @@ function Home() {
                 <strong className="main-name"> <font color="#27BCEE">KUDA RUKUNI</font></strong>
               </h1>
 
-              <div style={{ padding: 50, color: "#27BCEE", textAlign: "left" }}>
+              <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>

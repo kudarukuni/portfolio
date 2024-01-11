@@ -22,7 +22,7 @@ function Home() {
 
               <h1 className="heading-name">
                 MY NAME IS
-                <strong className="main-name"> <font color="rgb(39,203,238)">KUDA RUKUNI</font></strong>
+                <strong className="main-name"> <font color="#27BCEE">KUDA RUKUNI</font></strong>
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>

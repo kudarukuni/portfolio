@@ -40,7 +40,7 @@ function Projects() {
         <p style={{ color: "white" }}>
           Here are a few projects I have developed in the year 2023.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px", color: #fff }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={maclouds}

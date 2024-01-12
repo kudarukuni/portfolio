@@ -58,7 +58,7 @@ function Projects() {
               imgPath={cnft}
               isBlog={false}
               title="Chipoko NFT Minting Website (No Staking)"
-              description="The much anticipated Chipoko NFT minting website deployed on the Solana Blockchain using Metaplex's Candy Machine."
+              description="The much anticipated Chipoko NFT minting website deployed on the Solana Blockchain using the Solana Ecosystem Metaplex Candy Machine."
               ghLink="https://github.com/kudarukuni/CNFT"
               demoLink="https://cnft-kudarukuni.vercel.app/"
             />

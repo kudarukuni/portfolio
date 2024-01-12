@@ -28,7 +28,7 @@ import soldapp from "../../Assets/soldapp.png";
 import shmdapp from "../../Assets/shmdapp.png";
 import pidapp from "../../Assets/pidapp.png";
 import maclouds from "../../Assets/maclouds.png";
-import Type from "./Type2";
+import Type2 from "./Type2";
 
 function Projects() {
   return (

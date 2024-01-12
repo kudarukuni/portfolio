@@ -6,8 +6,8 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "<span style='color: white; font-size: 14px'>Here are a few projects I have developed in the year 2023</span>",
-          "<span style='color: white; font-size: 14px'>Please note that some projects were not included due the explicity of the content</span>",
+          "<span style='color: white; font-size: 16px'>Here are a few projects I have developed in the year 2023</span>",
+          "<span style='color: white; font-size: 16px'>Please note that some projects were not included due the explicity of the content</span>",
         ],
         autoStart: true,
         loop: true,

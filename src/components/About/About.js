@@ -35,13 +35,13 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Familiar <font color="#27cbee">Technologies </font>
+          <font color="#27cbee">Familiar Technologies </font>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <font color="#27cbee">Favourite</font> Tools
+          <font color="#27cbee">Favourite Tools</font>
         </h1>
         <Toolstack />
 

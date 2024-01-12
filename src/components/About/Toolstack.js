@@ -15,25 +15,25 @@ function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <SiLinux />
+        <SiLinux style={{ color: "#27cbee" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSublimetext />
+        <SiSublimetext style={{ color: "#27cbee" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiFigma />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiVercel style={{ color: "#27cbee" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiHeroku />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiReplit />
+        <SiReplit style={{ color: "#27cbee" }} />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiIpfs />

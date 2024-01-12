@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              About <p style={{ color: "rgb(39 203 239)" }}><strong><b>Kuda</b></strong></p>
+              <strong><b>About <p style={{ color: "rgb(39 203 239)" }}>Kuda</p></b></strong>
             </h1>
             <Aboutcard />
           </Col>
@@ -35,13 +35,13 @@ function About() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          <font color="#27cbee">Familiar Technologies </font>
+          <strong><b><font color="#27cbee">Familiar</font> <font color="#fff">Technologies </font></b></strong>
         </h1>
 
         <Techstack />
 
         <h1 className="project-heading">
-          <font color="#27cbee">Favourite Tools</font>
+          <strong><b><font color="#fff">Favourite <font color="#27cbee">Tools</font></b></strong>
         </h1>
         <Toolstack />
 

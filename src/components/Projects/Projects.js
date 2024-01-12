@@ -46,7 +46,7 @@ function Projects() {
             <ProjectCard
               imgPath={zadzadama}
               isBlog={false}
-              title="Goromonzi - Dama RaZara"
+              title="Goromonzi - Dama RaZara (The Ultimate Staking App)"
               description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $SUG - Sugar Blocks."
               ghLink="https://github.com/kudarukuni/ZADZADAMA"
               demoLink="https://zadzadama-kudarukuni.vercel.app/"

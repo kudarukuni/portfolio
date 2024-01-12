@@ -44,6 +44,72 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={zadzadama}
+              isBlog={false}
+              title="Goromonzi - Dama RaZara"
+              description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $SUG - Sugar Blocks."
+              ghLink="https://github.com/kudarukuni/ZADZADAMA"
+              demoLink="https://zadzadama-kudarukuni.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cnft}
+              isBlog={false}
+              title="Chipoko NFT Minting Website (No Staking)"
+              description="The much anticipated Chipoko NFT minting website deployed on the Solana Blockchain using Metaplex's Candy Machine."
+              ghLink="https://github.com/kudarukuni/CNFT"
+              demoLink="https://cnft-kudarukuni.vercel.app/"
+            />
+          </Col>
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tumra}
+              isBlog={false}
+              title="T U M R A | Tumira Mari Padhen Pako Uri Kwauri"
+              description="A money remittance application designed for sending money in FIAT Currencies. A blockchain version will be introduced once the Zim Cyber City Project is Complete !!."
+              ghLink="https://github.com/kudarukuni/tumra"
+              demoLink="https://tumra-kudarukuni.vercel.app/"
+            />
+          </Col>
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={dns}
+              isBlog={false}
+              title="Blockchain Election Voters Roll"
+              description="A Decentralized Voting Application were users vote for their favourite Presidential candidate."
+              ghLink="https://github.com/kudarukuni/BEVR"
+              demoLink="https://bevr-kudarukuni.vercel.app/"              
+            />
+          </Col>
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={nre}
+              isBlog={false}
+              title="Nawillow's Real Asstate System"
+              description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
+              ghLink="https://github.com/kudarukuni/NRE"
+              demoLink="https://nre-kudarukuni.vercel.app/"
+            />
+          </Col> 
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={cookies}
+              isBlog={false}
+              title="Kuda Rukuni 2D Portfolio Website"
+              description="This is my personal Portfolio 2D Website that I made using a JS Framework called Node.js."
+              ghLink="https://github.com/kudarukuni/cvtemp"
+              demoLink="https://cvtemp-kudarukuni.vercel.app/"
+            />
+          </Col>
+                
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={maclouds}
               isBlog={false}
               title="Maclouds Money Remittance"
@@ -63,40 +129,7 @@ function Projects() {
               demoLink="https://dats-kudarukuni.vercel.app/"
             />
           </Col>
-          
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={zadzadama}
-              isBlog={false}
-              title="Goromonzi - Dama RaZara"
-              description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $SUG - Sugar Blocks."
-              ghLink="https://github.com/kudarukuni/ZADZADAMA"
-              demoLink="https://zadzadama-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tumra}
-              isBlog={false}
-              title="T U M R A | Tumira Mari Padhen Pako Uri Kwauri"
-              description="A money remittance application designed for sending money in FIAT Currencies. A blockchain version will be introduced once the Zim Cyber City Project is Complete !!."
-              ghLink="https://github.com/kudarukuni/tumra"
-              demoLink="https://tumra-kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={cnft}
-              isBlog={false}
-              title="Chipoko NFT Minting Website (No Staking)"
-              description="The much anticipated Chipoko NFT minting website deployed on the Solana Blockchain using Metaplex's Candy Machine."
-              ghLink="https://github.com/kudarukuni/CNFT"
-              demoLink="https://cnft-kudarukuni.vercel.app/"
-            />
-          </Col>
-
+        
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={grtui}
@@ -176,17 +209,6 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={dns}
-              isBlog={false}
-              title="Blockchain Election Voters Roll"
-              description="A Decentralized Voting Application were users vote for their favourite Presidential candidate."
-              ghLink="https://github.com/kudarukuni/BEVR"
-              demoLink="https://bevr-kudarukuni.vercel.app/"              
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
               imgPath={ssis}
               isBlog={false}
               title="Solana Student Introduction System"
@@ -216,18 +238,7 @@ function Projects() {
               ghLink="https://github.com/kudarukuni/smr"
               demoLink="https://smr-kudarukuni.vercel.app/"
             />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={nre}
-              isBlog={false}
-              title="Nawillow's Real Asstate System"
-              description="A Blockchain NFT System Used To Buy and Sell NFT Crypto Listed Real Eastate and Buildings."
-              ghLink="https://github.com/kudarukuni/NRE"
-              demoLink="https://nre-kudarukuni.vercel.app/"
-            />
-          </Col>          
+          </Col>         
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -292,17 +303,6 @@ function Projects() {
               description="This is my personal Portfolio 3D Website that I made using a JS Framework called Three.js."  
               ghLink="https://github.com/kudarukuni/kudarukuni"
               demoLink="https://kudarukuni.vercel.app/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={cookies}
-              isBlog={false}
-              title="Kuda Rukuni 2D Portfolio Website"
-              description="This is my personal Portfolio 2D Website that I made using a JS Framework called Node.js."
-              ghLink="https://github.com/kudarukuni/cvtemp"
-              demoLink="https://cvtemp-kudarukuni.vercel.app/"
             />
           </Col>
 

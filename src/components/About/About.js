@@ -22,7 +22,7 @@ function About() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              About <font color="#27cbee">Kuda</font>
+              About <p style={{ color: "rgb(39 203 239)" }}>Kuda</p>
             </h1>
             <Aboutcard />
           </Col>

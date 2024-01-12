@@ -44,7 +44,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(39 203 239)" }}>
             "Yesterday <span>I</span> was clever so <span>I</span> changed the world, today <span>I</span> am wise so <span>I</span> change myself"{" "}
           </p>
           <footer className="blockquote-footer"><span>Rumi</span></footer>

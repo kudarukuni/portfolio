@@ -35,12 +35,12 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Project Portfolio
+          <strong><b><font color="#27cbee">My</font> <font color="#fff">Project</font> <font color="#27cbee">Portfolio</font></b></strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I have developed in the year 2022.
+          Here are a few projects I have developed in the year 2023.
         </p>
-        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px", color: #fff }}>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={maclouds}

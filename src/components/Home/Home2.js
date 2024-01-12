@@ -29,7 +29,7 @@ function Home2() {
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <b>Web Technologies and Products </b> and
+                <font color="#27CBEE"><b>Web Technologies and Products </b></font> and
                 also in areas related to{" "}
                 <b>
                   <font color="#27CBEE">IoT, Blockchain, Robotics, Quantum Computing, Nueral Science, Extra Terestrial Exploration and Deep Learning</font>.
@@ -40,10 +40,10 @@ function Home2() {
               Whenever possible, I apply my passion for developing products
               with <font color="#27CBEE"><b>Node.js</b></font> and
               <i>
-                <b>
+                <font color="#27CBEE"><b>
                   {" "}
                   Modern Javascript Library and Frameworks
-                </b>
+                </b></font>
               </i>
               &nbsp; like
               <i>

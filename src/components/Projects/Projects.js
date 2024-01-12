@@ -28,6 +28,7 @@ import soldapp from "../../Assets/soldapp.png";
 import shmdapp from "../../Assets/shmdapp.png";
 import pidapp from "../../Assets/pidapp.png";
 import maclouds from "../../Assets/maclouds.png";
+import Type from "./Type2";
 
 function Projects() {
   return (
@@ -38,7 +39,7 @@ function Projects() {
           <strong><b><font color="#27cbee">My</font> <font color="#fff">Project</font> <font color="#27cbee">Portfolio</font></b></strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I have developed in the year 2023.
+          <Type2 />
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">

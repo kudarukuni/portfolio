@@ -6,12 +6,12 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Here are a few projects I have developed in the year 2023",
-          "Please note that some projects were not included due the explicity of the content",
+          "<span style='color: white; font-size: 14px'>Here are a few projects I have developed in the year 2023</span>",
+          "<span style='color: white; font-size: 14px'>Please note that some projects were not included due the explicity of the content</span>",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        deleteSpeed: 100,
       }}
     />
   );

@@ -28,19 +28,19 @@ function AboutCard() {
               <ImPointRight /> Casual <span>C</span>h<span>e</span>s<span>s</span> Player
             </li>
             <li className="about-activity">
-              <ImPointLeft /> Football <span>/</span> Soccer
+              <ImPointRight /> Football <span>/</span> Soccer
             </li>
             <li className="about-activity">
               <ImPointRight /> Video <span>Games</span>
             </li>
            <li className="about-activity">
-              <ImPointLeft /> Travelling
+              <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
               <ImPointRight /> Trying <span>new</span> recipes
             </li>
             <li className="about-activity">
-              <ImPointLeft /> Learning <span>about</span> new <span>tech</span>
+              <ImPointRight /> Learning <span>about</span> new <span>tech</span>
             </li>
           </ul>
 

@@ -47,7 +47,7 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <font color="#27CBEE"><b> React.js and Next.js</b></font>
+                <font color="#27CBEE"><b> React.js</b> and <b>Next.js</b></font>
               </i>
             </p>
           </Col>

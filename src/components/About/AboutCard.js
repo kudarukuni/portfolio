@@ -25,22 +25,22 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <font color="purple"><ImPointRight /></font> Casual <span>C</span>h<span>e</span>s<span>s</span> Player
+              <font color="#27cbee"><ImPointRight /></font> Casual <span>C</span>h<span>e</span>s<span>s</span> Player
             </li>
             <li className="about-activity">
-              <font color="#fff"><ImPointRight /></font> Football <span>/</span> Soccer
+              <font color="#27cbee"><ImPointRight /></font> Football <span>/</span> Soccer
             </li>
             <li className="about-activity">
-              <font color="purple"><ImPointRight /></font> Video <span>Games</span>
+              <font color="#27cbee"><ImPointRight /></font> Video <span>Games</span>
             </li>
            <li className="about-activity">
-              <font color="#fff"><ImPointRight /></font> Travelling
+              <font color="#27cbee"><ImPointRight /></font> Travelling
             </li>
             <li className="about-activity">
-              <font color="purple"><ImPointRight /></font> Trying <span>new</span> recipes
+              <font color="#27cbee"><ImPointRight /></font> Trying <span>new</span> recipes
             </li>
             <li className="about-activity">
-              <font color="#fff"><ImPointRight /></font> Learning <span>about</span> new <span>tech</span>
+              <font color="#27cbee"><ImPointRight /></font> Learning <span>about</span> new <span>tech</span>
             </li>
           </ul>
 

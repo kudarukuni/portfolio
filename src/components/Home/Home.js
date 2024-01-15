@@ -29,7 +29,7 @@ function Home() {
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }} >
-                <Type /> { className="name-color" }
+                <span className="name-color"><Type /></spna> { }
               </div>
             </Col>
 

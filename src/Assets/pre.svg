@@ -44,4 +44,9 @@
             </circle>
         </g>
     </g>
+    <style>
+        svg {
+            color: #27CBEE;
+        }
+    </style>
 </svg>

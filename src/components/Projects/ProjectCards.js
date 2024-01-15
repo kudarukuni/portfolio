@@ -24,7 +24,7 @@ function ProjectCards(props) {
 
         {!props.isBlog && props.demoLink && (
           <Button
-            variant="primary"
+            variant="secondary"
             href={props.demoLink}
             target="_blank"
             style={{ marginLeft: "10px" }}

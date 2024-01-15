@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/logo4.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import "./Type.css"; // Import the CSS file for Type component
 
 function Home() {
   return (
@@ -22,11 +23,13 @@ function Home() {
 
               <h1 className="heading-name">
                 MY NAME IS
-                <strong className="main-name"> <font color="#27CBEE">KUDA RUKUNI</font></strong>
+                <strong className="main-name">
+                  <span className="name-color">KUDA RUKUNI</span>
+                </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "center" }}>
-                <Type style={{ color: "red" }} />
+              <div style={{ padding: 50, textAlign: "left" }}>
+                <Type style={{ color: "#27CBEE" }} /> {/* Add style prop to specify font color */}
               </div>
             </Col>
 

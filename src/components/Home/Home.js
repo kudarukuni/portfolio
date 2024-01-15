@@ -24,7 +24,7 @@ function Home() {
               <h1 className="heading-name">
                 MY NAME IS
                 <strong className="main-name">
-                  <span className="name-color">KUDA RUKUNI</span>
+                  <span className="name-color"> KUDA RUKUNI</span>
                 </strong>
               </h1>
 

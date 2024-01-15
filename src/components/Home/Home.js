@@ -25,8 +25,8 @@ function Home() {
                 <strong className="main-name"> <font color="#27CBEE">KUDA RUKUNI</font></strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "center", color: "#27cbee" }}>
-                <Type />
+              <div style={{ padding: 50, textAlign: "center" }}>
+                <Type style={{ color: "red" }} />
               </div>
             </Col>
 

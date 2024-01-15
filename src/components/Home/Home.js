@@ -28,8 +28,8 @@ function Home() {
                 </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }} className="name-color">
-                <Type /> {/* Add style prop to specify font color */}
+              <div style={{ padding: 50, textAlign: "left" }} >
+                <Type /> { className="name-color" }
               </div>
             </Col>
 

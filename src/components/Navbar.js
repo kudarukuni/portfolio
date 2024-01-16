@@ -104,7 +104,7 @@ function NavBar() {
               </Button>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <Button
-                href="tel:+263782516263"
+                href="tel:+263777558099"
                 target="_blank"
                 className="fork-btn-inner"
               >

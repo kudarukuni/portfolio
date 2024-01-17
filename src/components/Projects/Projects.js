@@ -61,6 +61,7 @@ function Projects() {
               description="The much anticipated Chipoko NFT minting website deployed on the Solana Blockchain using the Solana Ecosystem Metaplex Candy Machine."
               ghLink="https://github.com/kudarukuni/CNFT"
               demoLink="https://cnft-kudarukuni.vercel.app/"
+              buttonColor="#FF0000"
             />
           </Col>
                 

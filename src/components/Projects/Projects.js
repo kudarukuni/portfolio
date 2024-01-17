@@ -50,6 +50,7 @@ function Projects() {
               description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $SUG - Sugar Blocks."
               ghLink="https://github.com/kudarukuni/ZADZADAMA"
               demoLink="https://zadzadama-kudarukuni.vercel.app/"
+              buttonColor="#27cbee"
             />
           </Col>
 

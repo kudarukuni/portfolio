@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "21.x"
+    "node": "24.x"
   },
   "dependencies": {
     "@react-pdf/renderer": "^2.2.0",

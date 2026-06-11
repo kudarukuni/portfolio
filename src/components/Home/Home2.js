@@ -16,38 +16,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h2 style={{ fontSize: "4.0em" }}>
-              <strong>ALLOW <span><font color="#27CBEE">ME</font></span> TO <span> <font color="#27CBEE">RE-INTRODUCE</font> </span> MYSELF</strong>
+              <strong>ALLOW <span><font color="#C8102E">ME</font></span> TO <span> <font color="#C8102E">RE-INTRODUCE</font> </span> MYSELF</strong>
             </h2>
             <p className="home-about-body">
-              My journey as a <span>Software Engineer</span> started way back in the year <span>2012</span> when I was introduced to <span>Linux terminal</span> for the first time. I began with the ambition of becoming a quote on quote <span>"unethical-hacker"</span>. I advanced my Kali Linux <span>skills</span> to the point were I decided to <span>develop</span> an unhackable solution (<span><font color="#27BCEE">website</font></span>). At this very moment I realized I was an <span>IT Solutions Expert</span>. 
+              My journey as a <span>Software Engineer</span> started way back in the year <span>2012</span> when I was introduced to <span>Linux terminal</span> for the first time. I began with the ambition of becoming a quote on quote <span>"unethical-hacker"</span>. I advanced my Kali Linux <span>skills</span> to the point were I decided to <span>develop</span> an unhackable solution (<span><font color="#F6EB61"><a href = "https://proportfolio-kudarukuni.vercel.app">website</a></font></span>). At this very moment I realized I was an <span>IT Solutions Expert</span>. 
               <br />
               <br />I am fluent in all programming languages. Below is a  list of my favourite programming languages.
               <i>
-                <b><font color="#27CBEE"> Python, PHP, C++, Javascript, Typescript, Java, Rust and Solidity</font>. </b>
+                <b><font color="#C8102E"> Python, PHP, C++, Javascript, Typescript, Java, Rust and Solidity</font>. </b>
               </i>
               <br />
               <br />
               My field of Interest's are building new &nbsp;
               <i>
-                <font color="#27CBEE"><b>Web Technologies and Products </b></font> and
+                <font color="#C8102E"><b>Web Technologies and Products </b></font> and
                 also in areas related to{" "}
                 <b>
-                  <font color="#27CBEE">IoT, Blockchain, Robotics, Quantum Computing, Nueral Science, Extra Terestrial Exploration and Deep Learning</font>.
+                  <font color="#C8102E">IoT, Blockchain, Robotics, Quantum Computing, Nueral Science, Extra Terestrial Exploration and Deep Learning</font>.
                 </b>
               </i>
               <br />
               <br />
               Whenever possible, I apply my passion for developing products
-              with <font color="#27CBEE"><b>Node.js</b></font> and
+              with <font color="#C8102E"><b>Node.js</b></font> and
               <i>
-                <font color="#27CBEE"><b>
+                <font color="#C8102E"><b>
                   {" "}
                   Modern Javascript Library and Frameworks
                 </b></font>
               </i>
               &nbsp; like
               <i>
-                <font color="#27CBEE"><b> React.js</b> and <b>Next.js</b></font>
+                <font color="#C8102E"><b> React.js</b> and <b>Next.js</b></font>
               </i>
             </p>
           </Col>
@@ -64,7 +64,7 @@ function Home2() {
               Feel free to <span>connect </span>with me
             </p>
             <ul className="home-about-social-links">
-              <li className="social-icons"><font color = "#27CBEE">
+              <li className="social-icons"><font color = "#C8102E">
                 <a
                   href="https://github.com/kudarukuni"
                   target="_blank"
@@ -74,7 +74,7 @@ function Home2() {
                   <AiFillGithub />
                 </a></font>
               </li>
-              <li className="social-icons"><font color = "#27CBEE">
+              <li className="social-icons"><font color = "#C8102E">
                 <a
                   href="https://twitter.com/Naswillow"
                   target="_blank"
@@ -84,7 +84,7 @@ function Home2() {
                   <AiOutlineTwitter />
                 </a></font>
               </li>
-              <li className="social-icons"><font color = "#27CBEE">
+              <li className="social-icons"><font color = "#C8102E">
                 <a
                   href="https://www.linkedin.com/in/kudarukuni/"
                   target="_blank"

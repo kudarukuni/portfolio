@@ -36,7 +36,7 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          <strong><b><font color="#27cbee">My</font> <font color="#fff">Project</font> <font color="#27cbee">Portfolio</font></b></strong>
+          <strong><b><font color="#C8102E">My</font> <font color="#fff">Project</font> <font color="#C8102E">Portfolio</font></b></strong>
         </h1>
         <p style={{ color: "white" }}>
           <Type2 />
@@ -50,7 +50,7 @@ function Projects() {
               description="My Solana Based Blockchain NFT Application Used To Buy and Sell the MaZadza Dama NFT which can be used to Redeem $SUG - Sugar Blocks."
               ghLink="https://github.com/kudarukuni/ZADZADAMA"
               demoLink="https://zadzadama-kudarukuni.vercel.app/"
-              buttonColor="#27cbee"
+              buttonColor="#C8102E"
             />
           </Col>
 

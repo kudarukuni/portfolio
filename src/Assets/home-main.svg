@@ -4,7 +4,7 @@
 	</defs>
 	<style>
 		tspan { white-space:pre }
-		image { filter: hue-rotate(350deg) saturate(1.8) brightness(1.1); }
+		image { filter: hue-rotate(345deg) saturate(2) brightness(0.95); }
 	</style>
 	<use id="Page 1" href="#img1" x="108" y="85" />
 </svg>

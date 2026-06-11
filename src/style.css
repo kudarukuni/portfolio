@@ -11,7 +11,7 @@ html {
     rgba(15, 32, 35, 0.863)
   );
 
-  --imp-text-color: #27cbee;
+  --imp-text-color: #DC143C;
 }
 
 .purple {
@@ -62,13 +62,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0dcaf0;
+  background: #DC143C;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(39, 203, 238, 0.911);
+  background: #FF1744;
   border-radius: 12px;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #27cbee !important;
+  background-color: #DC143C !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #5bbff5;
+  background: #DC143C;
   bottom: 1px;
   left: 0;
   z-index: -1;
@@ -281,17 +281,17 @@ button:focus {
 }
 
 .main-name {
-  color: #5f9ff8;
+  color: #FF6B6B;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #27cbee !important;
+  color: #DC143C !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #27cbee !important;
+  color: #DC143C !important;
 }
 
 @media (max-width: 767px) {
@@ -371,7 +371,7 @@ button:focus {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: #18657a;
+  background: #8B0000;
   transition: 0.5s;
   transform: scale(0.9);
   z-index: -1;
@@ -379,13 +379,13 @@ button:focus {
 
 .home-social-icons:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #1f7695;
+  box-shadow: 0 0 15px #DC143C;
 }
 
 .home-social-icons:hover {
-  color: #20789e;
-  box-shadow: 0 0 5px #20789e;
-  text-shadow: 0 0 2px #20789e;
+  color: #DC143C;
+  box-shadow: 0 0 5px #DC143C;
+  text-shadow: 0 0 2px #DC143C;
 }
 
 .social-icons {
@@ -395,7 +395,7 @@ button:focus {
 }
 
 .icon-colour {
-  color: #0c7a86 !important;
+  color: #DC143C !important;
 }
 
 /* --------- */
@@ -460,7 +460,7 @@ button:focus {
 }
 
 .project-card-view {
-  box-shadow: 0 4px 5px 3px rgba(53, 107, 136, 0.459) !important;
+  box-shadow: 0 4px 5px 3px rgba(220, 20, 60, 0.3) !important;
   color: white !important;
   background-color: transparent !important;
   opacity: 0.9 !important;
@@ -470,7 +470,7 @@ button:focus {
 .project-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px rgba(72, 121, 144, 0.561) !important;
+  box-shadow: 0 4px 4px 5px rgba(220, 20, 60, 0.5) !important;
 }
 
 .blog-card {
@@ -483,7 +483,7 @@ button:focus {
 
 .blog-card-view {
   background-color: transparent !important;
-  box-shadow: 0 3px 3px 2px rgba(77, 139, 161, 0.459) !important;
+  box-shadow: 0 3px 3px 2px rgba(220, 20, 60, 0.3) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
@@ -501,7 +501,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(88, 148, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px rgba(220, 20, 60, 0.5) !important;
 }
 
 .card-img-top {
@@ -518,21 +518,21 @@ button:focus {
 
 .btn-primary {
   color: #fff !important;
-  background-color: #365f86 !important;
-  border-color: #365f86 !important;
+  background-color: #A41C38 !important;
+  border-color: #A41C38 !important;
 }
 
 .btn-primary:hover {
   color: #fff !important;
-  background-color: #27cbee !important;
-  border-color: #27cbee !important;
+  background-color: #DC143C !important;
+  border-color: #DC143C !important;
 }
 .btn:focus {
   outline: none !important;
   box-shadow: none !important;
 }
 .project-heading {
-  color: purple !important;
+  color: #DC143C !important;
   font-size: 2.3em !important;
   font-weight: 500 !important;
   padding-top: 10px !important;
@@ -555,12 +555,12 @@ button:focus {
   margin: 15px !important;
   padding: 10px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(39, 203, 238, 0.637) !important;
+  border: 1.7px solid rgba(220, 20, 60, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(220, 20, 60, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -574,7 +574,7 @@ button:focus {
 .tech-icons:hover {
   transform: scale(1.05) !important;
   overflow: hidden !important;
-  border: 2.2px solid rgba(39, 203, 238, 0.883) !important;
+  border: 2.2px solid rgba(220, 20, 60, 0.883) !important;
 }
 .tech-icon-images {
   padding: 20px !important;
@@ -645,14 +645,14 @@ button:focus {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #DC143C;
   position: relative;
 }
 
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #5234795d;
+  background: #5C1C2F;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -682,7 +682,7 @@ button:focus {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #27cbee;
+  border: 2px solid #DC143C;
 }
 
 .like-item {
@@ -692,8 +692,8 @@ button:focus {
 }
 
 .like-btn {
-  background-color: #27cbee !important;
-  border-color: #27cbee !important;
+  background-color: #DC143C !important;
+  border-color: #DC143C !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -702,8 +702,8 @@ button:focus {
 
 .like-btn:hover {
   transform: translateY(-2px) !important;
-  background-color: #27cbee !important;
-  border-color: #27cbee !important;
+  background-color: #DC143C !important;
+  border-color: #DC143C !important;
 }
 
 .animate-like {
@@ -727,7 +727,7 @@ button:focus {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #687678 !important;
+  background-color: #A41C38 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -735,8 +735,8 @@ button:focus {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #27cbee !important;
-  border-color: #27cbee !important;
+  background-color: #DC143C !important;
+  border-color: #DC143C !important;
 }
 .fork-btn-inner::after {
   display: none !important;

@@ -11,7 +11,7 @@ html {
     rgba(12, 25, 47, 0.863)
   );
 
-  --imp-text-color: #DC143C;
+  --imp-text-color: #C8102E;
 }
 
 .purple {
@@ -62,13 +62,13 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #DC143C;
+  background: #C8102E;
   border-radius: 12px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #DC143C;
+  background: #E81E3D;
   border-radius: 12px;
 }
 
@@ -97,7 +97,7 @@ button:focus {
 
 .navbar-toggler span {
   display: block !important;
-  background-color: #DC143C !important;
+  background-color: #C8102E !important;
   height: 4px !important;
   width: 27px !important;
   margin-top: 5px !important;
@@ -194,7 +194,7 @@ button:focus {
   height: 5px;
   width: 0;
   border-radius: 16px;
-  background: #DC143C;
+  background: #EC1C24;
   bottom: 1px;
   left: 0;
   z-index: -1;

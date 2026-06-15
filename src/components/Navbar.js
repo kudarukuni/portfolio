@@ -56,7 +56,7 @@ function NavBar() {
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> <span style={{ color: "#C8102E" }}>Home</span>
+                <AiOutlineHome style={{ marginBottom: "2px", color: "#FFD700" }} /> <span style={{ color: "#C8102E" }}>Home</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -66,7 +66,7 @@ function NavBar() {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> <span style={{ color: "#C8102E" }}>About</span>
+                <AiOutlineUser style={{ marginBottom: "2px", color: "#FFD700" }} /> <span style={{ color: "#C8102E" }}>About</span>
               </Nav.Link>
             </Nav.Item>
 
@@ -77,7 +77,7 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
+                  style={{ marginBottom: "2px", color: "#FFD700" }}
                 />{" "}
                 <span className="purple">Projects</span>
               </Nav.Link>
@@ -89,7 +89,7 @@ function NavBar() {
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <CgFileDocument style={{ marginBottom: "2px" }} /> <span style={{ color: "#C8102E" }}>Resume</span>
+                <CgFileDocument style={{ marginBottom: "2px", color: "#FFD700" }} /> <span style={{ color: "#C8102E" }}>Resume</span>
               </Nav.Link>
             </Nav.Item>
 

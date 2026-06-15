@@ -32,7 +32,7 @@ button:focus {
   width: 100%;
   height: 100%;
   z-index: 999999;
-  background-color: #F6EB61;
+  background-color: #C8102E;
   background-image: url(./Assets/pre.svg);
   background-repeat: no-repeat;
   background-position: center;
@@ -57,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #0f1f38;
+  background: #C8102E;
 }
 
 /* Handle */
@@ -76,7 +76,7 @@ button:focus {
 /* Navbar Section  */
 /* --------- */
 .sticky {
-  background-color: rgb(11, 21, 41) !important;
+  background-color: #C8102E !important;
   transition: all 0.3s ease-out 0s !important;
   box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
   backdrop-filter: blur(15px) !important;

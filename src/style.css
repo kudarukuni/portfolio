@@ -598,6 +598,12 @@ button:focus {
     padding-top: 0 !important;
   }
 }
+
+/* About Image */
+img[src*="about.png"] {
+  filter: hue-rotate(345deg) saturate(2) brightness(0.95) !important;
+}
+
 /* --------- */
 /* Resume */
 /* --------- */

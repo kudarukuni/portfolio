@@ -600,6 +600,7 @@ button:focus {
 }
 
 /* About Image */
+img[src*="logo.png"],
 img[src*="about.png"] {
   filter: hue-rotate(345deg) saturate(2) brightness(0.95) !important;
 }

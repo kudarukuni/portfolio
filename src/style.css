@@ -57,12 +57,12 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #C8102E;
+  background: rgba(12, 25, 47, 0.863);
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #C8102E;
+  background: rgba(12, 25, 47, 0.863);
   border-radius: 12px;
 }
 
